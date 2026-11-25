@@ -1,0 +1,76 @@
+name: Sync showcase
+
+# Nightly pull of .showcase/ folders from private repos tagged "showcase".
+# Small edits to approved entries go live directly; anything substantial
+# (new project, higher level, new demo, newly featured) opens a pull request.
+on:
+  schedule:
+    - cron: "17 2 * * *"        # 02:17 UTC every night
+  workflow_dispatch: {}
+
+concurrency:
+  group: showcase-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    outputs:
+      significance: ${{ steps.sync.outputs.significance }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Pull showcase content
+        id: sync
+        env:
+          SHOWCASE_TOKEN: ${{ secrets.SHOWCASE_TOKEN }}   # read-only token, the only secret
+          SHOWCASE_OWNER: ${{ github.repository_owner }}
+        run: python scripts/sync_showcase.py
+
+      - name: Check the site builds
+        if: steps.sync.outputs.significance != 'none'
+        run: mkdocs build --strict
+
+      - name: Publish small updates directly
+        if: steps.sync.outputs.significance == 'minor'
+        env:
+          REASONS: ${{ steps.sync.outputs.reasons }}
+        run: |
+          git config user.name "showcase-sync"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A docs showcase.lock.json
+          git commit -m "Sync showcase: small updates" -m "$REASONS"
+          git push
+
+      - name: Ask before substantial changes
+        if: steps.sync.outputs.significance == 'substantial'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: showcase-sync
+          delete-branch: true
+          commit-message: "Sync showcase: changes that need approval"
+          title: "Showcase: changes waiting for your approval"
+          body: |
+            The nightly sync found changes that go live only after you merge this pull request.
+
+            ${{ steps.sync.outputs.reasons }}
+
+            Merging deploys the site. Closing it keeps the site as it is; the same changes will be proposed again next night until the private repo changes.
+          labels: needs-approval
+
+  deploy:
+    needs: sync
+    if: needs.sync.outputs.significance == 'minor'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml

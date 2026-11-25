@@ -1,0 +1,13 @@
+title: Example lab
+slug: example-lab
+summary: A fixture project used only by the tests.
+context: Example Course
+context_type: course
+order: 1
+date: 2024-01
+status: done
+level: page
+demo: ""
+languages: [en, it]
+tech: [Python]
+topics: [testing]

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Point cloud viewer</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #111; color: #ddd; font: 13px system-ui, sans-serif; }
+  #msg { position: absolute; left: 12px; bottom: 10px; opacity: .8; }
+  canvas { display: block; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="msg">Loading…</div>
+<script type="module">
+// Usage from a project page:
+// <iframe class="viewer-frame" src="../../assets/viewer/ply-viewer.html?src=../../projects/<repo>/<slug>/media/cloud.ply"></iframe>
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { PLYLoader } from 'three/addons/loaders/PLYLoader.js';
+
+const params = new URLSearchParams(location.search);
+const src = params.get('src');
+const pointSize = parseFloat(params.get('size') || '0.01');
+const msg = document.getElementById('msg');
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(window.devicePixelRatio);
+renderer.setSize(innerWidth, innerHeight);
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 0.001, 1000);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+
+if (!src || src.includes('://')) {
+  msg.textContent = 'No point cloud given (use ?src=relative/path.ply).';
+} else {
+  new PLYLoader().load(src, geometry => {
+    geometry.computeBoundingSphere();
+    const { center, radius } = geometry.boundingSphere;
+    geometry.translate(-center.x, -center.y, -center.z);
+    const material = new THREE.PointsMaterial({
+      size: pointSize * radius,
+      vertexColors: geometry.hasAttribute('color'),
+      color: geometry.hasAttribute('color') ? 0xffffff : 0x8fb3ff,
+    });
+    scene.add(new THREE.Points(geometry, material));
+    camera.position.set(0, 0, radius * 2.2);
+    controls.update();
+    msg.textContent = `${geometry.attributes.position.count.toLocaleString()} points · drag to rotate, scroll to zoom`;
+  }, undefined, () => { msg.textContent = 'Could not load the point cloud.'; });
+}
+
+addEventListener('resize', () => {
+  camera.aspect = innerWidth / innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+});
+(function loop() { requestAnimationFrame(loop); controls.update(); renderer.render(scene, camera); })();
+</script>
+</body>
+</html>
