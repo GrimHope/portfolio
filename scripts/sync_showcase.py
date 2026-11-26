@@ -24,7 +24,7 @@ Output
 * showcase.lock.json: what is live, where it came from
 * significance (none | minor | substantial) printed and written to $GITHUB_OUTPUT
 
-Significance rule (Claudio's rule, 2026-11-25): small updates to approved
+Significance rule (owner's rule, 2026-11-25): small updates to approved
 content go out automatically; anything substantial waits for approval.
   substantial = a new project, a level going up, a demo added or changed,
                 featured switched on
