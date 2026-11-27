@@ -20,7 +20,7 @@ Three questions on the web interface: a constrained search, a dietary request an
 
 Real outputs of the full system (hybrid search, filters and a 7B model running locally on a GPU), recorded on
 17 prepared questions. Open any of them to see the filters it understood, the answer, and the facts of the recipes
-it retrieved.
+it retrieved, next to what a plain chunked vector search returns for the same question.
 
 <details class="replay" markdown>
 <summary><b>Vegetarian pasta with mushrooms in under 30 minutes</b> <span class="tag">answered</span> <span class="tag">1.6 s</span></summary>
@@ -42,6 +42,8 @@ it retrieved.
 |  | Broiled polenta with mushrooms and cheese | 30 min | 186 | boiling water, dried porcini mushrooms, water, salt, cornmeal, olive oil … |
 |  | Cannellini piccata | 20 min | 463 | olive oil, onion, garlic clove, white mushroom, flour, vegetable broth … |
 
+<small>Baseline (1,000-character chunks, dense search only), top 3: Blue cheese and mushroom pasta; Baked pasta with tofu cheese vegan; Breadless portabella mushroom pizzas stove top.</small>
+
 </details>
 
 <details class="replay" markdown>
@@ -60,6 +62,8 @@ it retrieved.
 |  | Bread and butter pudding gluten free | 50 min | 325 | bread, butter, eggs, caster sugar, milk, cream … |
 |  | Awesome gluten free chocolate chip cookies | 70 min | 915 | butter, brown sugar, sugar, vanilla instant pudding mix, eggs, vanilla extract … |
 |  | Amazing gluten free buttermilk donuts doughnuts | 40 min | 120 | eggs, buttermilk, butter, gluten-free rice flour mix, sugar, nutmeg … |
+
+<small>Baseline (1,000-character chunks, dense search only), top 3: Bubble up pizza; Bread and butter pudding gluten free; Basic cake gluten free.</small>
 
 </details>
 
@@ -80,6 +84,8 @@ it retrieved.
 | ✓ cited | Artichoke tomato and asiago focaccia | 270 min | 250 | all-purpose flour, milk, fast rising yeast, olive oil, salt, artichoke heart … |
 |  | Baked chicken stuffed tomatoes | 30 min | 238 | tomatoes, butter, all-purpose flour, milk, chicken, celery … |
 
+<small>Baseline (1,000-character chunks, dense search only), top 3: Cheese and olive stuffed tomatoes; Chicken tetrazzini from simply recipes; Baked fish with spinach and tomatoes.</small>
+
 </details>
 
 <details class="replay" markdown>
@@ -98,6 +104,8 @@ it retrieved.
 |  | Best ever low fat custard ice cream | 15 min | 467 | fat-free sweetened condensed milk, fat-free evaporated milk, eggs, sugar, flour, salt … |
 |  | Make it your way shortcakes | 25 min | 175 | flour, salt, baking powder, sugar, butter, egg … |
 |  | Chicken fried steak with gravy | 29 min | 439 | oil, beef cutlets, seasoned flour, eggs, milk, flour … |
+
+<small>Baseline (1,000-character chunks, dense search only), top 3: Apple puff pancake; Chai spiced honey bundt cakes; Best ever scrambled eggs.</small>
 
 </details>
 
@@ -123,6 +131,8 @@ it retrieved.
 | ✓ cited | Cauliflower red lentil ginger soup | 35 min | 171 | onion, fresh ginger, olive oil, garlic cloves, cumin seed, red pepper flakes … |
 | ✓ cited | Attempting to duplicate progresso lentil soup | 90 min | 73 | celery, salt, garlic cloves, fresh ginger, fresh ground black pepper, lentils … |
 
+<small>Baseline (1,000-character chunks, dense search only), top 3: Chef joey s red lentil soup; Chicken lentil soup; Big batch red lentil soup.</small>
+
 </details>
 
 <details class="replay" markdown>
@@ -142,6 +152,8 @@ it retrieved.
 |  | 20 minute garlic rosemary chicken brown rice dinner | 60 min | 202 | oil, boneless skinless chicken breast halves, garlic powder, dried rosemary leaves, reduced-sodium chicken broth, water … |
 |  | Chicken with sun dried tomatoes and artichokes 8 net carbs | 485 min | 348 | cooking spray, artichoke hearts, sun-dried tomato, cauliflower floret, garlic, dried oregano … |
 
+<small>Baseline (1,000-character chunks, dense search only), top 3: 250 calorie dinner; Chicken in mustard sauce weight watchers style; Buttermilk pecan chicken breasts.</small>
+
 </details>
 
 <details class="replay" markdown>
@@ -160,6 +172,8 @@ it retrieved.
 |  | Chicken in red curry and coconut | 30 min | 512 | peanut oil, garlic cloves, whole chicken breasts, yellow onion, coconut milk, thai red curry paste … |
 |  | Authentic thai red curry with chicken | 30 min | 1100 | boneless skinless chicken breasts, thai red curry paste, coconut milk, oil, chicken stock, chicken bouillon cube … |
 |  | Broiled tilapia with thai coconut curry sauce | 30 min | 374 | dark sesame oil, fresh ginger, garlic cloves, red bell pepper, green onion, curry powder … |
+
+<small>Baseline (1,000-character chunks, dense search only), top 3: Awesome thai chicken coconut curry; Cauliflower coconut curry; Chicken curry kerala style.</small>
 
 </details>
 
@@ -186,6 +200,8 @@ it retrieved.
 | ✓ cited | Breakfast wrap | 9 min | 515 | flour tortilla, mozzarella cheese, egg, bacon, frozen chopped spinach, ready-made bruschetta |
 | ✓ cited | Breakfast delight rounds | 7 min | 315 | english muffins, brown sugar, butter, cinnamon, peanut butter, gala apples |
 
+<small>Baseline (1,000-character chunks, dense search only), top 3: 10 10 10 bread; Backpacker bars; 40 second omelet.</small>
+
 </details>
 
 <details class="replay" markdown>
@@ -204,6 +220,8 @@ it retrieved.
 |  | Chocolate cake | 45 min | 185 | sugar, flour, salt, baking soda, cocoa, miracle whip … |
 |  | Chocolate cake with coconut topping vegan | 35 min | 5389 | all-purpose flour, unsweetened cocoa powder, baking soda, salt, guar gum, raw sugar … |
 |  | Chocolate cake no eggs or butter | 70 min | 4429 | flour, sugar, salt, baking soda, cocoa, vanilla essence … |
+
+<small>Baseline (1,000-character chunks, dense search only), top 3: Chocolate cake dairy free; Chocolate cake; Chocolate cake with chocolate sauce.</small>
 
 </details>
 
@@ -229,6 +247,8 @@ it retrieved.
 | ✓ cited | Goulashy beef stew for the slow cooker | 430 min | 566 | boneless beef cubes, celery, carrots, onions, reduced-sodium fat-free beef broth, frozen baby peas … |
 | ✓ cited | Beef burgundy for the slow cooker | 570 min | 718 | bacon, beef stew meat, salt & fresh ground pepper, onion, carrots, garlic cloves … |
 
+<small>Baseline (1,000-character chunks, dense search only), top 3: Beef stew for two slow cooker; Autumn beef stew; 4 hour beef stew.</small>
+
 </details>
 
 <details class="replay" markdown>
@@ -239,6 +259,8 @@ it retrieved.
 **Answer:**
 
 > No recipe in the collection matches all of these constraints: contains quinoa; contains feta. Try relaxing one of them.
+
+<small>Baseline (1,000-character chunks, dense search only), top 3: Black bean and tomato quinoa salad; Asian style quinoa salad with chili orange dressing; Broccoli chickpea and cherry tomato salad.</small>
 
 </details>
 
@@ -258,6 +280,8 @@ it retrieved.
 | ✓ cited | Cheddar rice souffle leftover rice | 35 min | 434 | butter, cheddar cheese, milk, white rice, salt, dry mustard … |
 |  | Cheesy chicken rice casserole | 40 min | 208 | cooked rice, chicken, fresh tomato, bell peppers, green onions, fresh basil … |
 |  | Chinese rice cakes | 12 min | 25 | fried rice, egg, flour, oil |
+
+<small>Baseline (1,000-character chunks, dense search only), top 3: Baked spinach risotto; Black bean and rice salad; Bacon cheeseburger rice oamc.</small>
 
 </details>
 
@@ -282,6 +306,8 @@ it retrieved.
 |  | 3 c s and a p pizza | 30 min | 114 | pizza dough, prosciutto, roasted red pepper, alfredo sauce, pizza sauce, fresh basil … |
 | ✓ cited | Artichoke and red pepper pizza | 0 min | 3577 | boboli thin pizza shell, olive oil, red bell pepper, dried basil, dried oregano, garlic … |
 
+<small>Baseline (1,000-character chunks, dense search only), top 3: Chicken and roasted red bell pepper ciabatta pizzas; Basquadillas; Chef joey s vegan nori pizzas.</small>
+
 </details>
 
 <details class="replay" markdown>
@@ -291,6 +317,8 @@ it retrieved.
 
 > I couldn't find any recipe related to that question in the collection.
 
+<small>Baseline (1,000-character chunks, dense search only), top 3: Caramelized carrots; Absolutely the best new york cheesecake gluten free; Basic soft white sandwich loaf bread.</small>
+
 </details>
 
 <details class="replay" markdown>
@@ -299,6 +327,8 @@ it retrieved.
 **Answer:**
 
 > I couldn't find any recipe related to that question in the collection.
+
+<small>Baseline (1,000-character chunks, dense search only), top 3: Ahoy there moules marinires french sailor s mussels; Asian black pepper crab; A day at the beach.</small>
 
 </details>
 
@@ -310,6 +340,8 @@ it retrieved.
 **Answer:**
 
 > No recipe in the collection matches all of these constraints: contains bacon; tagged vegan. Try relaxing one of them.
+
+<small>Baseline (1,000-character chunks, dense search only), top 3: Anita s polish pierogies; Bacon and two onion cheesecake; Apple cinnamon cornmeal pancakes.</small>
 
 </details>
 
@@ -330,6 +362,8 @@ it retrieved.
 |  | Baked cereal squares gluten free | 25 min | 142 | gluten-free flour, brown rice flour, flax seed meal, cornmeal, nonfat dry milk powder, dry active yeast … |
 |  | Basic cake or muffin mix wheat and egg free | 40 min | 157 | gluten-free flour, salt, baking powder, caster sugar, butter, puree … |
 
+<small>Baseline (1,000-character chunks, dense search only), top 3: Basic cake or muffin mix wheat and egg free; Best banana bread no egg no milk gluten free; Basic bread wheat free.</small>
+
 </details>
 
 <small>Recipe data: Food.com, collected by Majumder et al., EMNLP 2019. Only recipe facts are shown here.</small>
@@ -344,14 +378,48 @@ it retrieved.
 
 ## Results
 
-On 50,000 recipes, top 5 results, a blind set of 20 questions written after all tuning and run once:
+The project was run as a small R&D study: start from a standard RAG baseline (recipes split into
+1,000-character chunks, dense vector search, top chunks passed to the model), find where it fails, add one
+technique at a time and measure each step on the same data.
 
-- **0.85** of the results meet every constraint in the question
-- **0.80** known-item recall
-- **100%** of off-topic questions declined, with a median retrieval time of about 30 ms
+**Retrieval ablation.** 50,000 recipes, `bge-small` embeddings for every row so only the method changes,
+top 5 results, no language model. "Blind" is a set of 20 questions written after all tuning and run once.
 
-With the language model on top: every citation points to a retrieved recipe, every cited recipe meets the
-constraints, and every unanswerable question is declined, at about 1.1 s per answer.
+| System | Constraint precision@5 (blind) | Known-item recall@5 (blind) | Off-topic declined (blind) | Constraint precision@5 (dev) | Median latency |
+| --- | --- | --- | --- | --- | --- |
+| Baseline: 1,000-char chunks, dense only | 0.40 | 0.90 | 0% | 0.39 | 50 ms |
+| Dense only, one record per recipe | 0.43 | 0.80 | 0% | 0.47 | 17 ms |
+| BM25 only | 0.33 | 0.90 | 0% | 0.32 | 9 ms |
+| Hybrid, no filters | 0.30 | 1.00 | 0% | 0.45 | 26 ms |
+| **Hybrid + filters + off-topic guard** | **0.85** | **0.80** | **100%** | **0.99** | 30 ms |
+| Hybrid + filters + reranker | 0.85 | 0.80 | 100% | 0.99 | 240 ms |
+
+What it shows:
+
+- **Filters are what fix constrained questions**: the share of results meeting every constraint goes from
+  0.40 to 0.85 on the blind set. Better embeddings or hybrid search alone barely move it.
+- **They cost some recall on descriptive questions** (1.00 to 0.80), when a question names an ingredient the
+  recipe lists under another name. An earlier version lost far more (0.63) because words like "spiced" became
+  required ingredients; accepting only complete ingredient names fixed it.
+- **The reranker adds nothing here** on the blind set and costs 8x latency, so it is off by default.
+- **The off-topic guard is a calibrated threshold**: off-topic questions score at most 0.66 against their
+  closest recipe and recipe questions at least 0.74, so 0.70 separates them.
+
+**With the language model** (`qwen2.5:7b-instruct`, 4-bit, on a local GPU), checked by rules rather than by
+another model:
+
+| Check | Dev (56) | Blind (20) |
+| --- | --- | --- |
+| Answers whose citations are all real retrieved recipes | 100% | 100% |
+| Cited recipes that meet every constraint | 100% | 100% |
+| Known-item questions where the target recipe is cited | 85% | 80% |
+| Unanswerable questions declined | 100% | 100% |
+| Answerable questions wrongly declined | 0% | 6% |
+| Median generation time | 1.1 s | 1.1 s |
+
+**A negative result.** Using the same 7B model as the query parser did worse than the rule parser (blind
+constraint precision 0.60 vs 0.85), because it turns every ingredient a description mentions into a hard
+requirement. The rules stay the default; a larger model or few-shot prompting is the next experiment.
 
 ## Origin
 
