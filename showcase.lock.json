@@ -1,4 +1,13 @@
 {
+  "MasterChefsRAG/masterchefsrag": {
+    "repo": "MasterChefsRAG",
+    "folder": "",
+    "commit": "local",
+    "level": "page",
+    "demo": "",
+    "featured": true,
+    "hash": "3ace3a443b7ca1ac3d606ebacfa03fbed5adf0913121652ffba7ba508be91b91"
+  },
   "chiron-agent/chiron-agent": {
     "repo": "chiron-agent",
     "folder": "",
@@ -6,6 +15,6 @@
     "level": "page",
     "demo": "",
     "featured": true,
-    "hash": "2fe86015608edd4e7567675616e84f469ddda3e620faa8d68959837aae696238"
+    "hash": "78058b379191b0f7a8ef79a97fabc8a1a901fb8801362691a578bafbe6e05e87"
   }
 }

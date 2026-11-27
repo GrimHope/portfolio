@@ -1,0 +1,4056 @@
+[
+  {
+    "n": 1,
+    "question": "Vegetarian pasta with mushrooms in under 30 minutes",
+    "parser": "rules",
+    "search_text": "Vegetarian pasta with mushrooms in under 30 minutes",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": 30,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [
+        "mushrooms"
+      ],
+      "exclude_ingredients": [],
+      "required_tags": [
+        "vegetarian"
+      ]
+    },
+    "constraints_applied": [
+      "ready in 30 minutes or less",
+      "contains mushrooms",
+      "tagged vegetarian"
+    ],
+    "answer": "Here are a few vegetarian pasta recipes with mushrooms ready in under 30 minutes:\n\n- [R28991] Blue Cheese and Mushroom Pasta: A quick and easy pasta dish with a blend of mushrooms and creamy blue cheese.\n- [R18928] Cheesy Shells and Green Beans: While not a traditional pasta dish, this recipe combines pasta shells with mushrooms, cheese, and green beans for a quick vegetarian meal.",
+    "declined": false,
+    "cited_ids": [
+      28991,
+      18928
+    ],
+    "invalid_citations": [],
+    "latency_ms": 1621.0,
+    "timings_ms": {
+      "parse": 0.2,
+      "retrieve": 540.6,
+      "answer": 1080.2
+    },
+    "retrieved": [
+      {
+        "id": 28991,
+        "name": "blue cheese and mushroom pasta",
+        "minutes": 25,
+        "nutrition": {
+          "calories": 242.2,
+          "total_fat_pdv": 29.0,
+          "sugar_pdv": 21.0,
+          "sodium_pdv": 14.0,
+          "protein_pdv": 19.0,
+          "sat_fat_pdv": 60.0,
+          "carbs_pdv": 3.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "canadian",
+          "course",
+          "cuisine",
+          "dietary",
+          "easy",
+          "equipment",
+          "for-1-or-2",
+          "low-calorie",
+          "low-carb",
+          "low-in-something",
+          "main-dish",
+          "main-ingredient",
+          "mushrooms",
+          "north-american",
+          "number-of-servings",
+          "pasta",
+          "pasta-rice-and-grains",
+          "preparation",
+          "stove-top",
+          "time-to-make",
+          "vegetables",
+          "vegetarian"
+        ],
+        "ingredients": [
+          "onion",
+          "garlic",
+          "mushrooms",
+          "blue cheese",
+          "yoghurt",
+          "creme fraiche",
+          "black pepper",
+          "parsley",
+          "parmesan cheese",
+          "pasta"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 1,
+          "dense": 1
+        }
+      },
+      {
+        "id": 18928,
+        "name": "cheesy shells and green beans",
+        "minutes": 22,
+        "nutrition": {
+          "calories": 20.5,
+          "total_fat_pdv": 0.0,
+          "sugar_pdv": 0.0,
+          "sodium_pdv": 0.0,
+          "protein_pdv": 2.0,
+          "sat_fat_pdv": 0.0,
+          "carbs_pdv": 1.0
+        },
+        "tags": [
+          "3-steps-or-less",
+          "30-minutes-or-less",
+          "5-ingredients-or-less",
+          "beans",
+          "dietary",
+          "easy",
+          "main-ingredient",
+          "pasta",
+          "pasta-rice-and-grains",
+          "pasta-shells",
+          "preparation",
+          "time-to-make",
+          "vegetarian"
+        ],
+        "ingredients": [
+          "velveeta shells and cheese dinner",
+          "frozen cut green beans",
+          "mushrooms",
+          "french-fried onions"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 5,
+          "dense": 11
+        }
+      },
+      {
+        "id": 446454,
+        "name": "bulgur with crimini mushrooms",
+        "minutes": 25,
+        "nutrition": {
+          "calories": 171.5,
+          "total_fat_pdv": 6.0,
+          "sugar_pdv": 8.0,
+          "sodium_pdv": 0.0,
+          "protein_pdv": 12.0,
+          "sat_fat_pdv": 2.0,
+          "carbs_pdv": 10.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "course",
+          "dietary",
+          "easy",
+          "grains",
+          "main-ingredient",
+          "mushrooms",
+          "pasta-rice-and-grains",
+          "preparation",
+          "side-dishes",
+          "time-to-make",
+          "vegan",
+          "vegetables",
+          "vegetarian"
+        ],
+        "ingredients": [
+          "extra virgin olive oil",
+          "garlic cloves",
+          "onion",
+          "mushrooms",
+          "mushroom stock",
+          "bulgur",
+          "fresh rosemary",
+          "fresh thyme leave",
+          "black pepper"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 15,
+          "dense": 3
+        }
+      },
+      {
+        "id": 135392,
+        "name": "broiled polenta with mushrooms and cheese",
+        "minutes": 30,
+        "nutrition": {
+          "calories": 186.1,
+          "total_fat_pdv": 16.0,
+          "sugar_pdv": 2.0,
+          "sodium_pdv": 15.0,
+          "protein_pdv": 13.0,
+          "sat_fat_pdv": 19.0,
+          "carbs_pdv": 5.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "cheese",
+          "course",
+          "cuisine",
+          "dietary",
+          "eggs-dairy",
+          "european",
+          "grains",
+          "italian",
+          "main-dish",
+          "main-ingredient",
+          "mushrooms",
+          "pasta-rice-and-grains",
+          "preparation",
+          "time-to-make",
+          "vegetables",
+          "vegetarian"
+        ],
+        "ingredients": [
+          "boiling water",
+          "dried porcini mushrooms",
+          "water",
+          "salt",
+          "cornmeal",
+          "olive oil",
+          "mushrooms",
+          "garlic clove",
+          "dry white wine",
+          "mozzarella cheese",
+          "smoked cheddar cheese",
+          "ground black pepper"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 9,
+          "dense": 15
+        }
+      },
+      {
+        "id": 144110,
+        "name": "cannellini piccata",
+        "minutes": 20,
+        "nutrition": {
+          "calories": 463.1,
+          "total_fat_pdv": 22.0,
+          "sugar_pdv": 19.0,
+          "sodium_pdv": 0.0,
+          "protein_pdv": 42.0,
+          "sat_fat_pdv": 10.0,
+          "carbs_pdv": 21.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "american",
+          "beginner-cook",
+          "comfort-food",
+          "course",
+          "cuisine",
+          "diabetic",
+          "dietary",
+          "easy",
+          "equipment",
+          "for-1-or-2",
+          "inexpensive",
+          "kosher",
+          "main-dish",
+          "main-ingredient",
+          "midwestern",
+          "mushrooms",
+          "north-american",
+          "number-of-servings",
+          "occasion",
+          "one-dish-meal",
+          "onions",
+          "preparation",
+          "savory",
+          "stove-top",
+          "taste-mood",
+          "time-to-make",
+          "vegetables",
+          "vegetarian"
+        ],
+        "ingredients": [
+          "olive oil",
+          "onion",
+          "garlic clove",
+          "white mushroom",
+          "flour",
+          "vegetable broth",
+          "cannellini",
+          "fresh lemon juice",
+          "salt",
+          "fresh ground pepper",
+          "red pepper flakes",
+          "fresh parsley"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 21,
+          "dense": 6
+        }
+      }
+    ]
+  },
+  {
+    "n": 2,
+    "question": "A gluten-free dessert a child would like",
+    "parser": "rules",
+    "search_text": "A gluten-free dessert a child would like",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [],
+      "exclude_ingredients": [],
+      "required_tags": [
+        "gluten-free"
+      ]
+    },
+    "constraints_applied": [
+      "tagged gluten-free"
+    ],
+    "answer": "The [R175912] always tastes great gluten-free easy cake with variations would be a delightful choice for a child. It's kid-friendly, easy to prepare, and comes with variations to keep things interesting. [R119503] Betty Erlich's potato cake gluten free is another option, being both simple and using familiar ingredients like potatoes and eggs, which might appeal to children.",
+    "declined": false,
+    "cited_ids": [
+      175912,
+      119503
+    ],
+    "invalid_citations": [],
+    "latency_ms": 1076.8,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 97.0,
+      "answer": 979.8
+    },
+    "retrieved": [
+      {
+        "id": 175912,
+        "name": "always tastes great gluten free easy cake with variations",
+        "minutes": 40,
+        "nutrition": {
+          "calories": 208.9,
+          "total_fat_pdv": 21.0,
+          "sugar_pdv": 75.0,
+          "sodium_pdv": 4.0,
+          "protein_pdv": 4.0,
+          "sat_fat_pdv": 43.0,
+          "carbs_pdv": 6.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "cakes",
+          "course",
+          "desserts",
+          "dietary",
+          "easy",
+          "free-of-something",
+          "gluten-free",
+          "kid-friendly",
+          "lactose",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "gluten-free self-raising flour",
+          "butter",
+          "sugar",
+          "gluten-free cornflour",
+          "gluten free baking powder",
+          "vanilla essence",
+          "eggs",
+          "milk"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 12,
+          "dense": 1
+        }
+      },
+      {
+        "id": 119503,
+        "name": "betty erlich s potato cake gluten free",
+        "minutes": 100,
+        "nutrition": {
+          "calories": 168.6,
+          "total_fat_pdv": 8.0,
+          "sugar_pdv": 82.0,
+          "sodium_pdv": 1.0,
+          "protein_pdv": 10.0,
+          "sat_fat_pdv": 5.0,
+          "carbs_pdv": 9.0
+        },
+        "tags": [
+          "3-steps-or-less",
+          "4-hours-or-less",
+          "5-ingredients-or-less",
+          "cheesecake",
+          "course",
+          "cuisine",
+          "desserts",
+          "dietary",
+          "easy",
+          "european",
+          "free-of-something",
+          "gluten-free",
+          "healthy",
+          "jewish-ashkenazi",
+          "lactose",
+          "low-in-something",
+          "low-sodium",
+          "main-ingredient",
+          "polish",
+          "potatoes",
+          "preparation",
+          "time-to-make",
+          "vegetables",
+          "vegetarian"
+        ],
+        "ingredients": [
+          "potatoes",
+          "eggs",
+          "caster sugar",
+          "ground almonds",
+          "lemon"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 2,
+          "dense": 12
+        }
+      },
+      {
+        "id": 217196,
+        "name": "bread and butter pudding gluten free",
+        "minutes": 50,
+        "nutrition": {
+          "calories": 325.3,
+          "total_fat_pdv": 24.0,
+          "sugar_pdv": 48.0,
+          "sodium_pdv": 14.0,
+          "protein_pdv": 21.0,
+          "sat_fat_pdv": 43.0,
+          "carbs_pdv": 11.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "course",
+          "desserts",
+          "dietary",
+          "free-of-something",
+          "gluten-free",
+          "preparation",
+          "puddings-and-mousses",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "bread",
+          "butter",
+          "eggs",
+          "caster sugar",
+          "milk",
+          "cream",
+          "vanilla essence",
+          "sultanas",
+          "cinnamon"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 24,
+          "dense": 2
+        }
+      },
+      {
+        "id": 244829,
+        "name": "awesome gluten free chocolate chip cookies",
+        "minutes": 70,
+        "nutrition": {
+          "calories": 914.9,
+          "total_fat_pdv": 90.0,
+          "sugar_pdv": 386.0,
+          "sodium_pdv": 34.0,
+          "protein_pdv": 11.0,
+          "sat_fat_pdv": 179.0,
+          "carbs_pdv": 34.0
+        },
+        "tags": [
+          "4-hours-or-less",
+          "cookies-and-brownies",
+          "course",
+          "desserts",
+          "dietary",
+          "drop-cookies",
+          "free-of-something",
+          "gluten-free",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "butter",
+          "brown sugar",
+          "sugar",
+          "vanilla instant pudding mix",
+          "eggs",
+          "vanilla extract",
+          "gluten-free flour",
+          "xanthan gum",
+          "baking soda",
+          "semi-sweet chocolate chips"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 4,
+          "dense": 26
+        }
+      },
+      {
+        "id": 201483,
+        "name": "amazing gluten free buttermilk donuts doughnuts",
+        "minutes": 40,
+        "nutrition": {
+          "calories": 120.3,
+          "total_fat_pdv": 5.0,
+          "sugar_pdv": 81.0,
+          "sodium_pdv": 22.0,
+          "protein_pdv": 3.0,
+          "sat_fat_pdv": 11.0,
+          "carbs_pdv": 6.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "american",
+          "breads",
+          "breakfast",
+          "brunch",
+          "comfort-food",
+          "course",
+          "cuisine",
+          "desserts",
+          "dietary",
+          "eggs-dairy",
+          "equipment",
+          "for-large-groups",
+          "free-of-something",
+          "gluten-free",
+          "kosher",
+          "main-ingredient",
+          "north-american",
+          "number-of-servings",
+          "occasion",
+          "pasta-rice-and-grains",
+          "preparation",
+          "taste-mood",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "eggs",
+          "buttermilk",
+          "butter",
+          "gluten-free rice flour mix",
+          "sugar",
+          "nutmeg",
+          "cinnamon",
+          "baking soda",
+          "baking powder",
+          "salt",
+          "xanthan gum"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 6,
+          "dense": 33
+        }
+      }
+    ]
+  },
+  {
+    "n": 3,
+    "question": "Something with flour, milk and tomatoes",
+    "parser": "rules",
+    "search_text": "Something with flour, milk and tomatoes",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [
+        "flour",
+        "milk",
+        "tomatoes"
+      ],
+      "exclude_ingredients": [],
+      "required_tags": []
+    },
+    "constraints_applied": [
+      "contains flour",
+      "contains milk",
+      "contains tomatoes"
+    ],
+    "answer": "[R122119] batter fried fresh tomatoes uses flour, milk, and tomatoes. It takes 20 minutes to prepare and is a low-calorie side dish. [R283082] artichoke tomato and asiago focaccia also includes flour and milk, though it has a longer preparation time of 270 minutes.",
+    "declined": false,
+    "cited_ids": [
+      122119,
+      283082
+    ],
+    "invalid_citations": [],
+    "latency_ms": 1134.0,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 268.7,
+      "answer": 865.2
+    },
+    "retrieved": [
+      {
+        "id": 122119,
+        "name": "batter fried fresh tomatoes",
+        "minutes": 20,
+        "nutrition": {
+          "calories": 81.2,
+          "total_fat_pdv": 2.0,
+          "sugar_pdv": 13.0,
+          "sodium_pdv": 10.0,
+          "protein_pdv": 7.0,
+          "sat_fat_pdv": 3.0,
+          "carbs_pdv": 4.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "course",
+          "dietary",
+          "healthy",
+          "low-calorie",
+          "low-carb",
+          "low-fat",
+          "low-in-something",
+          "low-protein",
+          "low-saturated-fat",
+          "main-ingredient",
+          "preparation",
+          "side-dishes",
+          "time-to-make",
+          "tomatoes",
+          "vegetables"
+        ],
+        "ingredients": [
+          "flour",
+          "baking powder",
+          "salt",
+          "egg",
+          "milk",
+          "tomatoes",
+          "salt & pepper"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 1,
+          "dense": 2
+        }
+      },
+      {
+        "id": 483110,
+        "name": "bush tomato damper",
+        "minutes": 60,
+        "nutrition": {
+          "calories": 284.2,
+          "total_fat_pdv": 7.0,
+          "sugar_pdv": 4.0,
+          "sodium_pdv": 20.0,
+          "protein_pdv": 15.0,
+          "sat_fat_pdv": 14.0,
+          "carbs_pdv": 17.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "australian",
+          "breads",
+          "course",
+          "cuisine",
+          "preparation",
+          "quick-breads",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "all-purpose flour",
+          "baking powder",
+          "salt",
+          "sugar",
+          "unsalted butter",
+          "milk",
+          "bush tomatoes"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 2,
+          "dense": 9
+        }
+      },
+      {
+        "id": 115128,
+        "name": "cheese tomato bread",
+        "minutes": 75,
+        "nutrition": {
+          "calories": 2311.4,
+          "total_fat_pdv": 193.0,
+          "sugar_pdv": 107.0,
+          "sodium_pdv": 200.0,
+          "protein_pdv": 198.0,
+          "sat_fat_pdv": 215.0,
+          "carbs_pdv": 71.0
+        },
+        "tags": [
+          "4-hours-or-less",
+          "breads",
+          "cheese",
+          "course",
+          "dietary",
+          "eggs-dairy",
+          "high-calcium",
+          "high-in-something",
+          "kosher",
+          "main-ingredient",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "whole wheat flour",
+          "baking powder",
+          "baking soda",
+          "salt",
+          "garlic powder",
+          "oregano",
+          "fresh basil",
+          "cheddar cheese",
+          "parmesan cheese",
+          "eggs",
+          "canola oil",
+          "honey",
+          "tomatoes",
+          "milk"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 14,
+          "dense": 1
+        }
+      },
+      {
+        "id": 283082,
+        "name": "artichoke tomato and asiago focaccia",
+        "minutes": 270,
+        "nutrition": {
+          "calories": 250.2,
+          "total_fat_pdv": 10.0,
+          "sugar_pdv": 4.0,
+          "sodium_pdv": 33.0,
+          "protein_pdv": 14.0,
+          "sat_fat_pdv": 8.0,
+          "carbs_pdv": 13.0
+        },
+        "tags": [
+          "breads",
+          "cheese",
+          "course",
+          "eggs-dairy",
+          "equipment",
+          "main-ingredient",
+          "oven",
+          "preparation",
+          "tomatoes",
+          "vegetables",
+          "yeast"
+        ],
+        "ingredients": [
+          "all-purpose flour",
+          "milk",
+          "fast rising yeast",
+          "olive oil",
+          "salt",
+          "artichoke heart",
+          "sun-dried tomato",
+          "asiago cheese",
+          "kosher salt"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 8,
+          "dense": 6
+        }
+      },
+      {
+        "id": 364416,
+        "name": "baked chicken stuffed tomatoes",
+        "minutes": 30,
+        "nutrition": {
+          "calories": 238.0,
+          "total_fat_pdv": 26.0,
+          "sugar_pdv": 16.0,
+          "sodium_pdv": 8.0,
+          "protein_pdv": 18.0,
+          "sat_fat_pdv": 42.0,
+          "carbs_pdv": 4.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "cheese",
+          "chicken",
+          "eggs-dairy",
+          "main-ingredient",
+          "meat",
+          "poultry",
+          "preparation",
+          "time-to-make",
+          "tomatoes",
+          "vegetables"
+        ],
+        "ingredients": [
+          "tomatoes",
+          "butter",
+          "all-purpose flour",
+          "milk",
+          "chicken",
+          "celery",
+          "green onion",
+          "almonds",
+          "cheddar cheese",
+          "seasoning salt",
+          "pepper"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 3,
+          "dense": 12
+        }
+      }
+    ]
+  },
+  {
+    "n": 4,
+    "question": "The quickest recipe with eggs, flour and milk",
+    "parser": "rules",
+    "search_text": "The quickest recipe with eggs, flour and milk",
+    "prefer_quick": true,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [
+        "eggs",
+        "flour",
+        "milk"
+      ],
+      "exclude_ingredients": [],
+      "required_tags": []
+    },
+    "constraints_applied": [
+      "contains eggs",
+      "contains flour",
+      "contains milk"
+    ],
+    "answer": "The quickest recipe with eggs, flour, and milk is [R327593] anytime crepes, which takes 8 minutes to prepare.",
+    "declined": false,
+    "cited_ids": [
+      327593
+    ],
+    "invalid_citations": [],
+    "latency_ms": 601.0,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 109.6,
+      "answer": 491.3
+    },
+    "retrieved": [
+      {
+        "id": 327593,
+        "name": "anytime crepes",
+        "minutes": 8,
+        "nutrition": {
+          "calories": 149.6,
+          "total_fat_pdv": 14.0,
+          "sugar_pdv": 0.0,
+          "sodium_pdv": 5.0,
+          "protein_pdv": 20.0,
+          "sat_fat_pdv": 21.0,
+          "carbs_pdv": 2.0
+        },
+        "tags": [
+          "15-minutes-or-less",
+          "5-ingredients-or-less",
+          "beginner-cook",
+          "breakfast",
+          "course",
+          "dietary",
+          "easy",
+          "eggs-dairy",
+          "for-1-or-2",
+          "grains",
+          "low-calorie",
+          "low-carb",
+          "low-in-something",
+          "low-sodium",
+          "main-dish",
+          "main-ingredient",
+          "number-of-servings",
+          "pasta-rice-and-grains",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "egg",
+          "milk",
+          "whole wheat flour"
+        ],
+        "cited": true,
+        "ranks": {
+          "dense": 1
+        }
+      },
+      {
+        "id": 422794,
+        "name": "apple cinnamon pancakes",
+        "minutes": 15,
+        "nutrition": {
+          "calories": 398.7,
+          "total_fat_pdv": 18.0,
+          "sugar_pdv": 53.0,
+          "sodium_pdv": 13.0,
+          "protein_pdv": 28.0,
+          "sat_fat_pdv": 32.0,
+          "carbs_pdv": 20.0
+        },
+        "tags": [
+          "15-minutes-or-less",
+          "apples",
+          "breakfast",
+          "course",
+          "dietary",
+          "fruit",
+          "healthy",
+          "kid-friendly",
+          "low-in-something",
+          "low-sodium",
+          "main-ingredient",
+          "pancakes-and-waffles",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "flour",
+          "whole wheat flour",
+          "baking powder",
+          "cinnamon",
+          "milk",
+          "eggs",
+          "1% low-fat milk",
+          "butter",
+          "brown sugar",
+          "apples"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 1,
+          "dense": 31
+        }
+      },
+      {
+        "id": 30656,
+        "name": "best ever low fat custard ice cream",
+        "minutes": 15,
+        "nutrition": {
+          "calories": 466.8,
+          "total_fat_pdv": 8.0,
+          "sugar_pdv": 226.0,
+          "sodium_pdv": 62.0,
+          "protein_pdv": 47.0,
+          "sat_fat_pdv": 10.0,
+          "carbs_pdv": 26.0
+        },
+        "tags": [
+          "15-minutes-or-less",
+          "course",
+          "desserts",
+          "dietary",
+          "eggs",
+          "eggs-dairy",
+          "equipment",
+          "frozen-desserts",
+          "main-ingredient",
+          "preparation",
+          "small-appliance",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "fat-free sweetened condensed milk",
+          "fat-free evaporated milk",
+          "eggs",
+          "sugar",
+          "flour",
+          "salt",
+          "vanilla flavoring",
+          "skim milk"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 6
+        }
+      },
+      {
+        "id": 35653,
+        "name": "make it your way shortcakes",
+        "minutes": 25,
+        "nutrition": {
+          "calories": 175.2,
+          "total_fat_pdv": 11.0,
+          "sugar_pdv": 15.0,
+          "sodium_pdv": 8.0,
+          "protein_pdv": 7.0,
+          "sat_fat_pdv": 21.0,
+          "carbs_pdv": 7.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "beginner-cook",
+          "breads",
+          "cakes",
+          "christmas",
+          "comfort-food",
+          "course",
+          "desserts",
+          "dietary",
+          "easy",
+          "fall",
+          "gifts",
+          "heirloom-historical",
+          "holiday-event",
+          "independence-day",
+          "kid-friendly",
+          "new-years",
+          "number-of-servings",
+          "occasion",
+          "picnic",
+          "preparation",
+          "ramadan",
+          "romantic",
+          "seasonal",
+          "spring",
+          "summer",
+          "taste-mood",
+          "time-to-make",
+          "to-go",
+          "valentines-day",
+          "winter"
+        ],
+        "ingredients": [
+          "flour",
+          "salt",
+          "baking powder",
+          "sugar",
+          "butter",
+          "egg",
+          "milk"
+        ],
+        "cited": false,
+        "ranks": {
+          "dense": 6
+        }
+      },
+      {
+        "id": 392429,
+        "name": "chicken fried steak with gravy",
+        "minutes": 29,
+        "nutrition": {
+          "calories": 439.4,
+          "total_fat_pdv": 18.0,
+          "sugar_pdv": 1.0,
+          "sodium_pdv": 6.0,
+          "protein_pdv": 36.0,
+          "sat_fat_pdv": 32.0,
+          "carbs_pdv": 21.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "beef",
+          "main-ingredient",
+          "meat",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "oil",
+          "beef cutlets",
+          "seasoned flour",
+          "eggs",
+          "milk",
+          "flour",
+          "salt and pepper",
+          "dripping"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 2
+        }
+      }
+    ]
+  },
+  {
+    "n": 5,
+    "question": "A vegan soup with lentils",
+    "parser": "rules",
+    "search_text": "A vegan soup with lentils",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [
+        "lentils"
+      ],
+      "exclude_ingredients": [],
+      "required_tags": [
+        "vegan"
+      ]
+    },
+    "constraints_applied": [
+      "contains lentils",
+      "tagged vegan"
+    ],
+    "answer": "Here are a few vegan soups with lentils from the provided recipes:\n\n- Bulgarian lentil soup [R110844]: A 60-minute soup with brown lentils, onions, garlic, and a mix of spices.\n- Butternut squash and lentil soup [R185700]: A 75-minute soup featuring butternut squash, lentils, and a blend of vegetables.\n- Cauliflower red lentil ginger soup [R438302]: A 35-minute soup with a spicy twist, using cauliflower, red lentils, and ginger.\n- Attempting to duplicate progresso lentil soup [R419747]: A 90-minute soup with a simpler ingredient list, including lentils, vegetable stock, and spinach.",
+    "declined": false,
+    "cited_ids": [
+      110844,
+      185700,
+      438302,
+      419747
+    ],
+    "invalid_citations": [],
+    "latency_ms": 1780.9,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 34.8,
+      "answer": 1746.0
+    },
+    "retrieved": [
+      {
+        "id": 110844,
+        "name": "bulgarian lentil soup",
+        "minutes": 60,
+        "nutrition": {
+          "calories": 155.6,
+          "total_fat_pdv": 0.0,
+          "sugar_pdv": 11.0,
+          "sodium_pdv": 0.0,
+          "protein_pdv": 21.0,
+          "sat_fat_pdv": 0.0,
+          "carbs_pdv": 9.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "beans",
+          "course",
+          "cuisine",
+          "dietary",
+          "european",
+          "lentils",
+          "main-dish",
+          "main-ingredient",
+          "preparation",
+          "soups-stews",
+          "time-to-make",
+          "vegan",
+          "vegetarian"
+        ],
+        "ingredients": [
+          "brown lentils",
+          "onions",
+          "garlic",
+          "carrots",
+          "paprika",
+          "tomatoes",
+          "cumin",
+          "dried fenugreek leaves",
+          "mixed herbs",
+          "green chilies",
+          "chili powder",
+          "flour"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 1,
+          "dense": 3
+        }
+      },
+      {
+        "id": 185700,
+        "name": "butternut squash and lentil soup",
+        "minutes": 75,
+        "nutrition": {
+          "calories": 81.5,
+          "total_fat_pdv": 2.0,
+          "sugar_pdv": 15.0,
+          "sodium_pdv": 0.0,
+          "protein_pdv": 6.0,
+          "sat_fat_pdv": 1.0,
+          "carbs_pdv": 5.0
+        },
+        "tags": [
+          "4-hours-or-less",
+          "beans",
+          "course",
+          "dietary",
+          "easy",
+          "lentils",
+          "main-ingredient",
+          "preparation",
+          "soups-stews",
+          "time-to-make",
+          "vegan",
+          "vegetarian"
+        ],
+        "ingredients": [
+          "olive oil",
+          "onion",
+          "garlic cloves",
+          "carrot",
+          "celery",
+          "vegetable broth",
+          "butternut squash",
+          "lentils",
+          "tomatoes",
+          "lemon juice",
+          "bay leaf"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 3,
+          "dense": 1
+        }
+      },
+      {
+        "id": 243246,
+        "name": "brown lentil and vegetable soup",
+        "minutes": 35,
+        "nutrition": {
+          "calories": 459.5,
+          "total_fat_pdv": 7.0,
+          "sugar_pdv": 41.0,
+          "sodium_pdv": 11.0,
+          "protein_pdv": 57.0,
+          "sat_fat_pdv": 3.0,
+          "carbs_pdv": 26.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "australian",
+          "beans",
+          "carrots",
+          "comfort-food",
+          "course",
+          "cuisine",
+          "dietary",
+          "easy",
+          "egg-free",
+          "fall",
+          "free-of-something",
+          "inexpensive",
+          "lentils",
+          "main-dish",
+          "main-ingredient",
+          "occasion",
+          "one-dish-meal",
+          "onions",
+          "preparation",
+          "presentation",
+          "seasonal",
+          "served-hot",
+          "soups-stews",
+          "south-west-pacific",
+          "taste-mood",
+          "time-to-make",
+          "tomatoes",
+          "vegan",
+          "vegetables",
+          "vegetarian",
+          "winter"
+        ],
+        "ingredients": [
+          "olive oil",
+          "carrots",
+          "zucchini",
+          "celery",
+          "brown onion",
+          "diced tomatoes",
+          "vegetable stock",
+          "brown lentils",
+          "flat leaf parsley",
+          "lemon"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 4,
+          "dense": 4
+        }
+      },
+      {
+        "id": 438302,
+        "name": "cauliflower red lentil ginger soup",
+        "minutes": 35,
+        "nutrition": {
+          "calories": 171.3,
+          "total_fat_pdv": 4.0,
+          "sugar_pdv": 14.0,
+          "sodium_pdv": 9.0,
+          "protein_pdv": 21.0,
+          "sat_fat_pdv": 2.0,
+          "carbs_pdv": 8.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "beans",
+          "cauliflower",
+          "comfort-food",
+          "course",
+          "cuisine",
+          "dietary",
+          "free-of-something",
+          "indian",
+          "lactose",
+          "lentils",
+          "main-ingredient",
+          "occasion",
+          "preparation",
+          "soups-stews",
+          "spicy",
+          "taste-mood",
+          "time-to-make",
+          "vegan",
+          "vegetables",
+          "vegetarian"
+        ],
+        "ingredients": [
+          "onion",
+          "fresh ginger",
+          "olive oil",
+          "garlic cloves",
+          "cumin seed",
+          "red pepper flakes",
+          "ground turmeric",
+          "vegetable stock",
+          "cauliflower",
+          "frozen spinach",
+          "tomatoes",
+          "dried red lentils",
+          "fresh cilantro",
+          "salt"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 7,
+          "dense": 2
+        }
+      },
+      {
+        "id": 419747,
+        "name": "attempting to duplicate progresso lentil soup",
+        "minutes": 90,
+        "nutrition": {
+          "calories": 72.8,
+          "total_fat_pdv": 0.0,
+          "sugar_pdv": 6.0,
+          "sodium_pdv": 6.0,
+          "protein_pdv": 11.0,
+          "sat_fat_pdv": 0.0,
+          "carbs_pdv": 4.0
+        },
+        "tags": [
+          "3-steps-or-less",
+          "4-hours-or-less",
+          "course",
+          "dietary",
+          "easy",
+          "preparation",
+          "soups-stews",
+          "time-to-make",
+          "vegan",
+          "vegetarian"
+        ],
+        "ingredients": [
+          "celery",
+          "salt",
+          "garlic cloves",
+          "fresh ginger",
+          "fresh ground black pepper",
+          "lentils",
+          "vegetable stock",
+          "tomato paste",
+          "frozen spinach"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 2,
+          "dense": 8
+        }
+      }
+    ]
+  },
+  {
+    "n": 6,
+    "question": "Low-calorie chicken dinner under 400 calories",
+    "parser": "rules",
+    "search_text": "Low-calorie chicken dinner under 400 calories",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": 400.0,
+      "min_protein_pdv": null,
+      "include_ingredients": [
+        "chicken"
+      ],
+      "exclude_ingredients": [],
+      "required_tags": [
+        "low-calorie"
+      ]
+    },
+    "constraints_applied": [
+      "at most 400 kcal per serving",
+      "contains chicken",
+      "tagged low-calorie"
+    ],
+    "answer": "[R65045] 250 calorie dinner: This dish contains 233 kcal per serving and includes chicken breast, sliced mushrooms, fat-free Italian salad dressing, onion, low-fat margarine, zucchini, and tomatoes. It's a main dish that can be prepared in 65 minutes.\n\n[R17415] chicken mashed potatoes: With 306 kcal per serving, this recipe is a quick and easy option, taking only 30 minutes to prepare. It uses potatoes, low sodium chicken broth, and garlic powder.",
+    "declined": false,
+    "cited_ids": [
+      65045,
+      17415
+    ],
+    "invalid_citations": [],
+    "latency_ms": 1435.1,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 137.1,
+      "answer": 1298.0
+    },
+    "retrieved": [
+      {
+        "id": 65045,
+        "name": "250 calorie dinner",
+        "minutes": 65,
+        "nutrition": {
+          "calories": 232.9,
+          "total_fat_pdv": 16.0,
+          "sugar_pdv": 21.0,
+          "sodium_pdv": 16.0,
+          "protein_pdv": 51.0,
+          "sat_fat_pdv": 15.0,
+          "carbs_pdv": 2.0
+        },
+        "tags": [
+          "4-hours-or-less",
+          "canadian",
+          "chicken",
+          "chicken-breasts",
+          "comfort-food",
+          "course",
+          "cuisine",
+          "dietary",
+          "equipment",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "north-american",
+          "occasion",
+          "one-dish-meal",
+          "poultry",
+          "preparation",
+          "stove-top",
+          "taste-mood",
+          "time-to-make",
+          "weeknight"
+        ],
+        "ingredients": [
+          "chicken breast",
+          "sliced mushrooms",
+          "fat-free italian salad dressing",
+          "onion",
+          "lowfat margarine",
+          "zucchini",
+          "tomatoes",
+          "low-fat cheese"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 7,
+          "dense": 1
+        }
+      },
+      {
+        "id": 17415,
+        "name": "chicken mashed potatoes",
+        "minutes": 30,
+        "nutrition": {
+          "calories": 306.1,
+          "total_fat_pdv": 1.0,
+          "sugar_pdv": 12.0,
+          "sodium_pdv": 2.0,
+          "protein_pdv": 20.0,
+          "sat_fat_pdv": 1.0,
+          "carbs_pdv": 22.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "5-ingredients-or-less",
+          "american",
+          "beginner-cook",
+          "chicken",
+          "course",
+          "cuisine",
+          "diabetic",
+          "dietary",
+          "dinner-party",
+          "easy",
+          "english",
+          "equipment",
+          "european",
+          "healthy",
+          "healthy-2",
+          "holiday-event",
+          "independence-day",
+          "inexpensive",
+          "kid-friendly",
+          "low-calorie",
+          "low-cholesterol",
+          "low-fat",
+          "low-in-something",
+          "low-protein",
+          "low-saturated-fat",
+          "low-sodium",
+          "lunch",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "new-years",
+          "north-american",
+          "occasion",
+          "poultry",
+          "preparation",
+          "side-dishes",
+          "stove-top",
+          "time-to-make",
+          "vegetables"
+        ],
+        "ingredients": [
+          "potatoes",
+          "low sodium chicken broth",
+          "garlic powder"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 28,
+          "dense": 41
+        }
+      },
+      {
+        "id": 96843,
+        "name": "chicken dinner pot pie",
+        "minutes": 70,
+        "nutrition": {
+          "calories": 208.4,
+          "total_fat_pdv": 20.0,
+          "sugar_pdv": 0.0,
+          "sodium_pdv": 23.0,
+          "protein_pdv": 29.0,
+          "sat_fat_pdv": 34.0,
+          "carbs_pdv": 2.0
+        },
+        "tags": [
+          "4-hours-or-less",
+          "chicken",
+          "course",
+          "dietary",
+          "equipment",
+          "low-calorie",
+          "low-carb",
+          "low-in-something",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "one-dish-meal",
+          "oven",
+          "poultry",
+          "preparation",
+          "savory-pies",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "pastry for a double-crust 9-inch pie",
+          "butter",
+          "flour",
+          "salt",
+          "pepper",
+          "ground thyme",
+          "chicken broth",
+          "light cream",
+          "cooked chicken",
+          "frozen peas and carrots"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 1
+        }
+      },
+      {
+        "id": 17231,
+        "name": "20 minute garlic rosemary chicken brown rice dinner",
+        "minutes": 60,
+        "nutrition": {
+          "calories": 202.5,
+          "total_fat_pdv": 8.0,
+          "sugar_pdv": 0.0,
+          "sodium_pdv": 4.0,
+          "protein_pdv": 58.0,
+          "sat_fat_pdv": 5.0,
+          "carbs_pdv": 2.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "american",
+          "brown-rice",
+          "chicken",
+          "chicken-breasts",
+          "course",
+          "cuisine",
+          "dietary",
+          "equipment",
+          "free-of-something",
+          "healthy",
+          "lactose",
+          "low-calorie",
+          "low-carb",
+          "low-fat",
+          "low-in-something",
+          "low-saturated-fat",
+          "low-sodium",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "north-american",
+          "pasta-rice-and-grains",
+          "poultry",
+          "preparation",
+          "rice",
+          "stove-top",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "oil",
+          "boneless skinless chicken breast halves",
+          "garlic powder",
+          "dried rosemary leaves",
+          "reduced-sodium chicken broth",
+          "water",
+          "minute brown rice"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 2
+        }
+      },
+      {
+        "id": 498562,
+        "name": "chicken with sun dried tomatoes and artichokes 8 net carbs",
+        "minutes": 485,
+        "nutrition": {
+          "calories": 348.2,
+          "total_fat_pdv": 14.0,
+          "sugar_pdv": 14.0,
+          "sodium_pdv": 18.0,
+          "protein_pdv": 97.0,
+          "sat_fat_pdv": 12.0,
+          "carbs_pdv": 4.0
+        },
+        "tags": [
+          "chicken",
+          "chicken-thighs-legs",
+          "crock-pot-slow-cooker",
+          "dietary",
+          "equipment",
+          "healthy",
+          "low-calorie",
+          "low-carb",
+          "low-fat",
+          "low-in-something",
+          "low-saturated-fat",
+          "low-sodium",
+          "main-ingredient",
+          "meat",
+          "occasion",
+          "poultry",
+          "preparation",
+          "savory",
+          "taste-mood"
+        ],
+        "ingredients": [
+          "cooking spray",
+          "artichoke hearts",
+          "sun-dried tomato",
+          "cauliflower floret",
+          "garlic",
+          "dried oregano",
+          "kosher salt",
+          "black pepper",
+          "white wine",
+          "water",
+          "crushed red pepper flakes",
+          "boneless skinless chicken thighs"
+        ],
+        "cited": false,
+        "ranks": {
+          "dense": 2
+        }
+      }
+    ]
+  },
+  {
+    "n": 7,
+    "question": "A spicy Thai curry with coconut milk",
+    "parser": "rules",
+    "search_text": "A spicy Thai curry with coconut milk",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [
+        "coconut milk"
+      ],
+      "exclude_ingredients": [],
+      "required_tags": []
+    },
+    "constraints_applied": [
+      "contains coconut milk"
+    ],
+    "answer": "The recipe that fits your description is [R81916] awesome thai chicken coconut curry. This dish is a spicy Thai curry with coconut milk, taking 35 minutes to prepare and offering a protein content of 5% DV per serving. The ingredients include garlic, red curry paste, coconut milk, chicken breasts, and pineapple chunks.",
+    "declined": false,
+    "cited_ids": [
+      81916
+    ],
+    "invalid_citations": [],
+    "latency_ms": 922.9,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 34.5,
+      "answer": 888.4
+    },
+    "retrieved": [
+      {
+        "id": 81916,
+        "name": "awesome thai chicken coconut curry",
+        "minutes": 35,
+        "nutrition": {
+          "calories": 317.5,
+          "total_fat_pdv": 37.0,
+          "sugar_pdv": 86.0,
+          "sodium_pdv": 34.0,
+          "protein_pdv": 5.0,
+          "sat_fat_pdv": 96.0,
+          "carbs_pdv": 8.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "asian",
+          "chicken",
+          "coconut",
+          "course",
+          "cuisine",
+          "curries",
+          "dietary",
+          "equipment",
+          "fruit",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "nuts",
+          "occasion",
+          "poultry",
+          "preparation",
+          "spicy",
+          "stove-top",
+          "taste-mood",
+          "thai",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "garlic clove",
+          "vegetable oil",
+          "fresh ginger",
+          "red curry paste",
+          "coconut milk",
+          "water",
+          "salt",
+          "lemongrass",
+          "fish sauce",
+          "brown sugar",
+          "boneless skinless chicken breasts",
+          "pineapple chunks",
+          "green onion"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 2,
+          "dense": 1
+        }
+      },
+      {
+        "id": 376725,
+        "name": "chicken floating in curried coconut soup",
+        "minutes": 60,
+        "nutrition": {
+          "calories": 1040.3,
+          "total_fat_pdv": 147.0,
+          "sugar_pdv": 60.0,
+          "sodium_pdv": 29.0,
+          "protein_pdv": 55.0,
+          "sat_fat_pdv": 395.0,
+          "carbs_pdv": 10.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "course",
+          "preparation",
+          "soups-stews",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "sesame oil",
+          "chicken breasts",
+          "coconut milk",
+          "chicken stock",
+          "lemongrass",
+          "kaffir lime leaves",
+          "lime juice",
+          "mirin",
+          "fish sauce",
+          "soya sauce",
+          "sweet chili sauce",
+          "sambal oelek",
+          "red curry paste",
+          "tamarind paste",
+          "garlic",
+          "shallot",
+          "green onion",
+          "thai chiles",
+          "jalapeno",
+          "ginger",
+          "galangal",
+          "mushrooms",
+          "red pepper",
+          "brown sugar",
+          "basil",
+          "cilantro"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 5,
+          "dense": 2
+        }
+      },
+      {
+        "id": 527654,
+        "name": "chicken in red curry and coconut",
+        "minutes": 30,
+        "nutrition": {
+          "calories": 512.5,
+          "total_fat_pdv": 56.0,
+          "sugar_pdv": 3.0,
+          "sodium_pdv": 31.0,
+          "protein_pdv": 84.0,
+          "sat_fat_pdv": 92.0,
+          "carbs_pdv": 1.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "course",
+          "main-dish",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "peanut oil",
+          "garlic cloves",
+          "whole chicken breasts",
+          "yellow onion",
+          "coconut milk",
+          "thai red curry paste",
+          "salt",
+          "thai fish sauce",
+          "fresh cilantro"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 3,
+          "dense": 4
+        }
+      },
+      {
+        "id": 512041,
+        "name": "authentic thai red curry with chicken",
+        "minutes": 30,
+        "nutrition": {
+          "calories": 1099.6,
+          "total_fat_pdv": 50.0,
+          "sugar_pdv": 371.0,
+          "sodium_pdv": 13.0,
+          "protein_pdv": 48.0,
+          "sat_fat_pdv": 122.0,
+          "carbs_pdv": 59.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "asian",
+          "chicken",
+          "chicken-breasts",
+          "course",
+          "cuisine",
+          "curries",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "occasion",
+          "one-dish-meal",
+          "poultry",
+          "preparation",
+          "spicy",
+          "taste-mood",
+          "thai",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "boneless skinless chicken breasts",
+          "thai red curry paste",
+          "coconut milk",
+          "oil",
+          "chicken stock",
+          "chicken bouillon cube",
+          "yellow onions",
+          "green bell peppers",
+          "carrots",
+          "japanese eggplants",
+          "sugar",
+          "lemon juice",
+          "fish sauce",
+          "sweet basil",
+          "dried basil",
+          "cherry tomatoes",
+          "jasmine rice"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 7,
+          "dense": 10
+        }
+      },
+      {
+        "id": 116882,
+        "name": "broiled tilapia with thai coconut curry sauce",
+        "minutes": 30,
+        "nutrition": {
+          "calories": 373.6,
+          "total_fat_pdv": 7.0,
+          "sugar_pdv": 23.0,
+          "sodium_pdv": 23.0,
+          "protein_pdv": 77.0,
+          "sat_fat_pdv": 6.0,
+          "carbs_pdv": 14.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "asian",
+          "broil",
+          "coconut",
+          "course",
+          "cuisine",
+          "dietary",
+          "dinner-party",
+          "equipment",
+          "fish",
+          "freshwater-fish",
+          "fruit",
+          "main-dish",
+          "main-ingredient",
+          "nuts",
+          "occasion",
+          "oven",
+          "pasta-rice-and-grains",
+          "preparation",
+          "rice",
+          "saltwater-fish",
+          "seafood",
+          "spicy",
+          "taste-mood",
+          "thai",
+          "tilapia",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "dark sesame oil",
+          "fresh ginger",
+          "garlic cloves",
+          "red bell pepper",
+          "green onion",
+          "curry powder",
+          "red curry paste",
+          "ground cumin",
+          "low sodium soy sauce",
+          "brown sugar",
+          "salt",
+          "light coconut milk",
+          "fresh cilantro",
+          "tilapia fillets",
+          "cooked basmati rice",
+          "lime"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 9,
+          "dense": 8
+        }
+      }
+    ]
+  },
+  {
+    "n": 8,
+    "question": "Breakfast I can make in 10 minutes",
+    "parser": "rules",
+    "search_text": "Breakfast I can make in 10 minutes",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": 10,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [],
+      "exclude_ingredients": [],
+      "required_tags": []
+    },
+    "constraints_applied": [
+      "ready in 10 minutes or less"
+    ],
+    "answer": "Here are some breakfast options you can make in 10 minutes or less:\n\n- [R533190] 1 minute breakfast sandwich: A quick and satisfying meal with egg, cheese, bacon, and other toppings.\n- [R27161] Breakfast salad: A light and healthy choice with yogurt, granola, fruits, and honey.\n- [R314218] Breakfast parfait: A sweet and nutritious option with yogurt, oats, strawberries, walnuts, and frozen fruit.\n- [R413442] Breakfast wrap: A hearty wrap with tortilla, cheese, egg, bacon, and spinach.\n- [R86120] Breakfast delight rounds: Sweet and simple rounds made with english muffins, brown sugar, and apples.",
+    "declined": false,
+    "cited_ids": [
+      533190,
+      27161,
+      314218,
+      413442,
+      86120
+    ],
+    "invalid_citations": [],
+    "latency_ms": 1738.7,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 24.6,
+      "answer": 1714.1
+    },
+    "retrieved": [
+      {
+        "id": 533190,
+        "name": "1 minute breakfast sandwich",
+        "minutes": 3,
+        "nutrition": {
+          "calories": 398.7,
+          "total_fat_pdv": 31.0,
+          "sugar_pdv": 8.0,
+          "sodium_pdv": 34.0,
+          "protein_pdv": 46.0,
+          "sat_fat_pdv": 55.0,
+          "carbs_pdv": 10.0
+        },
+        "tags": [
+          "15-minutes-or-less",
+          "breakfast",
+          "course",
+          "for-1-or-2",
+          "number-of-servings",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "egg",
+          "milk",
+          "salt",
+          "pepper",
+          "cooking spray",
+          "english muffin",
+          "cheese",
+          "bacon",
+          "tomatoes",
+          "basil",
+          "avocado",
+          "red pepper flakes"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 4,
+          "dense": 2
+        }
+      },
+      {
+        "id": 27161,
+        "name": "breakfast salad",
+        "minutes": 3,
+        "nutrition": {
+          "calories": 140.0,
+          "total_fat_pdv": 10.0,
+          "sugar_pdv": 22.0,
+          "sodium_pdv": 0.0,
+          "protein_pdv": 8.0,
+          "sat_fat_pdv": 6.0,
+          "carbs_pdv": 5.0
+        },
+        "tags": [
+          "15-minutes-or-less",
+          "breakfast",
+          "course",
+          "for-1-or-2",
+          "number-of-servings",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "yogurt",
+          "granola cereal",
+          "blueberries",
+          "strawberry",
+          "banana",
+          "honey"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 11,
+          "dense": 3
+        }
+      },
+      {
+        "id": 314218,
+        "name": "breakfast parfait",
+        "minutes": 5,
+        "nutrition": {
+          "calories": 414.3,
+          "total_fat_pdv": 20.0,
+          "sugar_pdv": 128.0,
+          "sodium_pdv": 4.0,
+          "protein_pdv": 32.0,
+          "sat_fat_pdv": 29.0,
+          "carbs_pdv": 20.0
+        },
+        "tags": [
+          "15-minutes-or-less",
+          "3-steps-or-less",
+          "breakfast",
+          "course",
+          "easy",
+          "for-1-or-2",
+          "granola-and-porridge",
+          "number-of-servings",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "plain yogurt",
+          "rolled oats",
+          "strawberries",
+          "walnuts",
+          "honey",
+          "frozen fruit"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 2,
+          "dense": 13
+        }
+      },
+      {
+        "id": 413442,
+        "name": "breakfast wrap",
+        "minutes": 9,
+        "nutrition": {
+          "calories": 514.7,
+          "total_fat_pdv": 31.0,
+          "sugar_pdv": 10.0,
+          "sodium_pdv": 40.0,
+          "protein_pdv": 41.0,
+          "sat_fat_pdv": 33.0,
+          "carbs_pdv": 20.0
+        },
+        "tags": [
+          "15-minutes-or-less",
+          "breakfast",
+          "course",
+          "for-1-or-2",
+          "number-of-servings",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "flour tortilla",
+          "mozzarella cheese",
+          "egg",
+          "bacon",
+          "frozen chopped spinach",
+          "ready-made bruschetta"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 6,
+          "dense": 15
+        }
+      },
+      {
+        "id": 86120,
+        "name": "breakfast delight rounds",
+        "minutes": 7,
+        "nutrition": {
+          "calories": 315.0,
+          "total_fat_pdv": 18.0,
+          "sugar_pdv": 79.0,
+          "sodium_pdv": 14.0,
+          "protein_pdv": 15.0,
+          "sat_fat_pdv": 26.0,
+          "carbs_pdv": 15.0
+        },
+        "tags": [
+          "15-minutes-or-less",
+          "breakfast",
+          "course",
+          "dietary",
+          "for-1-or-2",
+          "lunch",
+          "number-of-servings",
+          "preparation",
+          "snacks",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "english muffins",
+          "brown sugar",
+          "butter",
+          "cinnamon",
+          "peanut butter",
+          "gala apples"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 20,
+          "dense": 5
+        }
+      }
+    ]
+  },
+  {
+    "n": 9,
+    "question": "Dairy-free chocolate cake",
+    "parser": "rules",
+    "search_text": "Dairy-free chocolate cake",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [],
+      "exclude_ingredients": [
+        "milk",
+        "butter",
+        "cheese",
+        "cream",
+        "yogurt"
+      ],
+      "required_tags": []
+    },
+    "constraints_applied": [
+      "no milk",
+      "no butter",
+      "no cheese",
+      "no cream",
+      "no yogurt"
+    ],
+    "answer": "The recipe [R110296] for a dairy-free chocolate cake fits your request. It takes 50 minutes to prepare and has a high calorie count per serving. The ingredients include vegan margarine, sugar, eggs, vanilla, flour, cocoa powder, baking soda, salt, baking powder, and water.",
+    "declined": false,
+    "cited_ids": [
+      110296
+    ],
+    "invalid_citations": [],
+    "latency_ms": 1001.5,
+    "timings_ms": {
+      "parse": 0.0,
+      "retrieve": 197.8,
+      "answer": 803.6
+    },
+    "retrieved": [
+      {
+        "id": 110296,
+        "name": "chocolate cake dairy free",
+        "minutes": 50,
+        "nutrition": {
+          "calories": 2552.2,
+          "total_fat_pdv": 37.0,
+          "sugar_pdv": 1340.0,
+          "sodium_pdv": 176.0,
+          "protein_pdv": 111.0,
+          "sat_fat_pdv": 48.0,
+          "carbs_pdv": 186.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "cakes",
+          "chocolate",
+          "course",
+          "dairy-free",
+          "desserts",
+          "dietary",
+          "free-of-something",
+          "lactose",
+          "main-ingredient",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "vegan margarine",
+          "sugar",
+          "eggs",
+          "vanilla",
+          "flour",
+          "cocoa powder",
+          "baking soda",
+          "salt",
+          "baking powder",
+          "water"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 1,
+          "dense": 1
+        }
+      },
+      {
+        "id": 284884,
+        "name": "chocolate cake no milk required",
+        "minutes": 35,
+        "nutrition": {
+          "calories": 247.8,
+          "total_fat_pdv": 14.0,
+          "sugar_pdv": 89.0,
+          "sodium_pdv": 16.0,
+          "protein_pdv": 5.0,
+          "sat_fat_pdv": 6.0,
+          "carbs_pdv": 13.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "beginner-cook",
+          "cakes",
+          "course",
+          "desserts",
+          "dietary",
+          "easy",
+          "free-of-something",
+          "lactose",
+          "low-cholesterol",
+          "low-in-something",
+          "low-protein",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "flour",
+          "sugar",
+          "cocoa",
+          "salt",
+          "baking soda",
+          "vinegar",
+          "oil",
+          "vanilla",
+          "water"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 3,
+          "dense": 2
+        }
+      },
+      {
+        "id": 290864,
+        "name": "chocolate cake",
+        "minutes": 45,
+        "nutrition": {
+          "calories": 184.7,
+          "total_fat_pdv": 1.0,
+          "sugar_pdv": 100.0,
+          "sodium_pdv": 9.0,
+          "protein_pdv": 5.0,
+          "sat_fat_pdv": 0.0,
+          "carbs_pdv": 13.0
+        },
+        "tags": [
+          "3-steps-or-less",
+          "60-minutes-or-less",
+          "cakes",
+          "chocolate",
+          "course",
+          "desserts",
+          "dietary",
+          "easy",
+          "free-of-something",
+          "lactose",
+          "main-ingredient",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "sugar",
+          "flour",
+          "salt",
+          "baking soda",
+          "cocoa",
+          "miracle whip",
+          "water",
+          "egg",
+          "vanilla"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 2,
+          "dense": 3
+        }
+      },
+      {
+        "id": 239303,
+        "name": "chocolate cake with coconut topping vegan",
+        "minutes": 35,
+        "nutrition": {
+          "calories": 5388.7,
+          "total_fat_pdv": 215.0,
+          "sugar_pdv": 2463.0,
+          "sodium_pdv": 193.0,
+          "protein_pdv": 201.0,
+          "sat_fat_pdv": 261.0,
+          "carbs_pdv": 326.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "cakes",
+          "coconut",
+          "course",
+          "cuisine",
+          "danish",
+          "desserts",
+          "dietary",
+          "easy",
+          "egg-free",
+          "european",
+          "free-of-something",
+          "fruit",
+          "lactose",
+          "main-ingredient",
+          "nuts",
+          "preparation",
+          "scandinavian",
+          "time-to-make",
+          "vegan",
+          "vegetarian"
+        ],
+        "ingredients": [
+          "all-purpose flour",
+          "unsweetened cocoa powder",
+          "baking soda",
+          "salt",
+          "guar gum",
+          "raw sugar",
+          "liquid stevia",
+          "soymilk",
+          "vanilla",
+          "instant coffee powder",
+          "boiling water",
+          "oil",
+          "white vinegar",
+          "desiccated coconut",
+          "ground cinnamon",
+          "lemon rind",
+          "almonds"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 5,
+          "dense": 4
+        }
+      },
+      {
+        "id": 339303,
+        "name": "chocolate cake no eggs or butter",
+        "minutes": 70,
+        "nutrition": {
+          "calories": 4429.3,
+          "total_fat_pdv": 237.0,
+          "sugar_pdv": 1603.0,
+          "sodium_pdv": 202.0,
+          "protein_pdv": 98.0,
+          "sat_fat_pdv": 97.0,
+          "carbs_pdv": 239.0
+        },
+        "tags": [
+          "4-hours-or-less",
+          "beginner-cook",
+          "cakes",
+          "chocolate",
+          "course",
+          "desserts",
+          "dietary",
+          "easy",
+          "egg-free",
+          "free-of-something",
+          "healthy-2",
+          "low-cholesterol",
+          "low-in-something",
+          "main-ingredient",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "flour",
+          "sugar",
+          "salt",
+          "baking soda",
+          "cocoa",
+          "vanilla essence",
+          "vinegar",
+          "cooking oil",
+          "water"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 4,
+          "dense": 8
+        }
+      }
+    ]
+  },
+  {
+    "n": 10,
+    "question": "A slow-cooker beef stew",
+    "parser": "rules",
+    "search_text": "A slow-cooker beef stew",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [
+        "beef"
+      ],
+      "exclude_ingredients": [],
+      "required_tags": []
+    },
+    "constraints_applied": [
+      "contains beef"
+    ],
+    "answer": "Here are a few slow-cooker beef stews that fit your request:\n\n- [R82878] Autumn Beef Stew: A hearty dish with a rich blend of vegetables and herbs, cooked in a crock-pot for 560 minutes. Each serving contains 673 kcal and 77% of the daily protein value.\n- [R346135] Beef Stew for Two Slow Cooker: A healthier option with 475 kcal per serving, featuring beef stew meat, potatoes, and carrots, cooked in a slow cooker for 375 minutes.\n- [R216068] Goulashy Beef Stew for the Slow Cooker: A simpler recipe with fewer ingredients, taking 430 minutes to cook and offering 566 kcal per serving.\n- [R260362] Beef Burgundy for the Slow Cooker: A more complex and flavorful option with 718 kcal per serving, cooked for 570 minutes.",
+    "declined": false,
+    "cited_ids": [
+      82878,
+      346135,
+      216068,
+      260362
+    ],
+    "invalid_citations": [],
+    "latency_ms": 2289.9,
+    "timings_ms": {
+      "parse": 0.0,
+      "retrieve": 49.1,
+      "answer": 2240.7
+    },
+    "retrieved": [
+      {
+        "id": 82878,
+        "name": "autumn beef stew",
+        "minutes": 560,
+        "nutrition": {
+          "calories": 673.0,
+          "total_fat_pdv": 43.0,
+          "sugar_pdv": 31.0,
+          "sodium_pdv": 25.0,
+          "protein_pdv": 77.0,
+          "sat_fat_pdv": 67.0,
+          "carbs_pdv": 21.0
+        },
+        "tags": [
+          "course",
+          "crock-pot-slow-cooker",
+          "dietary",
+          "equipment",
+          "fall",
+          "main-dish",
+          "occasion",
+          "preparation",
+          "seasonal",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "red potatoes",
+          "carrot",
+          "onion",
+          "lean stewing beef",
+          "butter",
+          "flour",
+          "water",
+          "salt",
+          "dried parsley flakes",
+          "celery seed",
+          "dried thyme",
+          "pepper"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 3,
+          "dense": 1
+        }
+      },
+      {
+        "id": 346135,
+        "name": "beef stew for two slow cooker",
+        "minutes": 375,
+        "nutrition": {
+          "calories": 475.4,
+          "total_fat_pdv": 16.0,
+          "sugar_pdv": 13.0,
+          "sodium_pdv": 55.0,
+          "protein_pdv": 112.0,
+          "sat_fat_pdv": 23.0,
+          "carbs_pdv": 12.0
+        },
+        "tags": [
+          "american",
+          "beef",
+          "comfort-food",
+          "course",
+          "cuisine",
+          "dietary",
+          "for-1-or-2",
+          "healthy",
+          "low-calorie",
+          "low-carb",
+          "low-fat",
+          "low-in-something",
+          "low-saturated-fat",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "north-american",
+          "number-of-servings",
+          "occasion",
+          "one-dish-meal",
+          "preparation",
+          "soups-stews",
+          "stews",
+          "taste-mood"
+        ],
+        "ingredients": [
+          "all-purpose flour",
+          "kosher salt",
+          "ground black pepper",
+          "onion powder",
+          "garlic powder",
+          "beef stew meat",
+          "potatoes",
+          "carrot",
+          "beef broth",
+          "worcestershire sauce",
+          "bay leaf"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 8,
+          "dense": 3
+        }
+      },
+      {
+        "id": 259117,
+        "name": "beef stew with sun dried tomatoes",
+        "minutes": 500,
+        "nutrition": {
+          "calories": 828.9,
+          "total_fat_pdv": 68.0,
+          "sugar_pdv": 44.0,
+          "sodium_pdv": 42.0,
+          "protein_pdv": 105.0,
+          "sat_fat_pdv": 87.0,
+          "carbs_pdv": 17.0
+        },
+        "tags": [
+          "american",
+          "beef",
+          "comfort-food",
+          "course",
+          "crock-pot-slow-cooker",
+          "cuisine",
+          "dietary",
+          "equipment",
+          "fall",
+          "low-carb",
+          "low-in-something",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "north-american",
+          "occasion",
+          "one-dish-meal",
+          "preparation",
+          "seasonal",
+          "taste-mood",
+          "tomatoes",
+          "vegetables",
+          "winter"
+        ],
+        "ingredients": [
+          "sun-dried tomato",
+          "beef stew meat",
+          "red potatoes",
+          "onion",
+          "garlic cloves",
+          "carrots",
+          "water",
+          "salt",
+          "parsley",
+          "oregano",
+          "basil",
+          "bay leaves",
+          "cold water",
+          "all-purpose flour"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 7,
+          "dense": 4
+        }
+      },
+      {
+        "id": 216068,
+        "name": "goulashy beef stew for the slow cooker",
+        "minutes": 430,
+        "nutrition": {
+          "calories": 565.8,
+          "total_fat_pdv": 75.0,
+          "sugar_pdv": 39.0,
+          "sodium_pdv": 11.0,
+          "protein_pdv": 19.0,
+          "sat_fat_pdv": 101.0,
+          "carbs_pdv": 6.0
+        },
+        "tags": [
+          "3-steps-or-less",
+          "beef",
+          "course",
+          "crock-pot-slow-cooker",
+          "easy",
+          "equipment",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "preparation",
+          "stews"
+        ],
+        "ingredients": [
+          "boneless beef cubes",
+          "celery",
+          "carrots",
+          "onions",
+          "reduced-sodium fat-free beef broth",
+          "frozen baby peas",
+          "no yolks egg noodle substitute",
+          "diced tomatoes",
+          "red wine",
+          "garlic salt",
+          "dried basil",
+          "worcestershire sauce",
+          "pepper"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 1,
+          "dense": 12
+        }
+      },
+      {
+        "id": 260362,
+        "name": "beef burgundy for the slow cooker",
+        "minutes": 570,
+        "nutrition": {
+          "calories": 717.6,
+          "total_fat_pdv": 47.0,
+          "sugar_pdv": 31.0,
+          "sodium_pdv": 66.0,
+          "protein_pdv": 148.0,
+          "sat_fat_pdv": 58.0,
+          "carbs_pdv": 6.0
+        },
+        "tags": [
+          "beef",
+          "course",
+          "crock-pot-slow-cooker",
+          "dietary",
+          "equipment",
+          "fall",
+          "low-carb",
+          "low-in-something",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "occasion",
+          "preparation",
+          "seasonal",
+          "stews",
+          "vegetables",
+          "winter"
+        ],
+        "ingredients": [
+          "bacon",
+          "beef stew meat",
+          "salt & fresh ground pepper",
+          "onion",
+          "carrots",
+          "garlic cloves",
+          "fresh thyme leaves",
+          "tomato paste",
+          "pinot noir wine",
+          "low sodium chicken broth",
+          "soy sauce",
+          "bay leaves",
+          "minute tapioca",
+          "fresh parsley leaves",
+          "mushroom"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 2,
+          "dense": 18
+        }
+      }
+    ]
+  },
+  {
+    "n": 11,
+    "question": "Easy cookies with only 3 ingredients",
+    "parser": "rules",
+    "search_text": "Easy cookies with only 3 ingredients",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [],
+      "exclude_ingredients": [],
+      "required_tags": []
+    },
+    "constraints_applied": [],
+    "answer": "The recipe [R31685] amazingly easy cookies uses only 5 ingredients and fits your criteria. Here are the details:\n\n- Time: 17 min\n- Nutrition per serving: 104 kcal, protein 2% DV\n- Ingredients: cake mix, butter, egg",
+    "declined": false,
+    "cited_ids": [
+      31685
+    ],
+    "invalid_citations": [],
+    "latency_ms": 824.1,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 66.6,
+      "answer": 757.4
+    },
+    "retrieved": [
+      {
+        "id": 312257,
+        "name": "brownie oatmeal cookies",
+        "minutes": 32,
+        "nutrition": {
+          "calories": 15.6,
+          "total_fat_pdv": 0.0,
+          "sugar_pdv": 0.0,
+          "sodium_pdv": 0.0,
+          "protein_pdv": 1.0,
+          "sat_fat_pdv": 0.0,
+          "carbs_pdv": 0.0
+        },
+        "tags": [
+          "5-ingredients-or-less",
+          "60-minutes-or-less",
+          "beginner-cook",
+          "brown-bag",
+          "chocolate",
+          "cookies-and-brownies",
+          "course",
+          "desserts",
+          "drop-cookies",
+          "easy",
+          "grains",
+          "inexpensive",
+          "main-ingredient",
+          "occasion",
+          "pasta-rice-and-grains",
+          "picnic",
+          "preparation",
+          "sweet",
+          "taste-mood",
+          "time-to-make",
+          "to-go"
+        ],
+        "ingredients": [
+          "refrigerated brownie bar dough",
+          "quick-cooking oats"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 4,
+          "dense": 21
+        }
+      },
+      {
+        "id": 149548,
+        "name": "chocolate chip caramel nut bars only 3 ingredients",
+        "minutes": 14,
+        "nutrition": {
+          "calories": 191.3,
+          "total_fat_pdv": 13.0,
+          "sugar_pdv": 0.0,
+          "sodium_pdv": 4.0,
+          "protein_pdv": 4.0,
+          "sat_fat_pdv": 11.0,
+          "carbs_pdv": 8.0
+        },
+        "tags": [
+          "15-minutes-or-less",
+          "5-ingredients-or-less",
+          "bar-cookies",
+          "beginner-cook",
+          "comfort-food",
+          "cookies-and-brownies",
+          "course",
+          "desserts",
+          "dietary",
+          "easy",
+          "for-large-groups",
+          "inexpensive",
+          "number-of-servings",
+          "occasion",
+          "preparation",
+          "sweet",
+          "taste-mood",
+          "time-to-make",
+          "to-go"
+        ],
+        "ingredients": [
+          "refrigerated chocolate chip cookie dough",
+          "walnuts",
+          "caramel ice cream topping"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 1,
+          "dense": 30
+        }
+      },
+      {
+        "id": 31685,
+        "name": "amazingly easy cookies",
+        "minutes": 17,
+        "nutrition": {
+          "calories": 104.0,
+          "total_fat_pdv": 7.0,
+          "sugar_pdv": 38.0,
+          "sodium_pdv": 5.0,
+          "protein_pdv": 2.0,
+          "sat_fat_pdv": 11.0,
+          "carbs_pdv": 4.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "5-ingredients-or-less",
+          "cookies-and-brownies",
+          "course",
+          "desserts",
+          "dietary",
+          "drop-cookies",
+          "easy",
+          "eggs-dairy",
+          "for-large-groups",
+          "inexpensive",
+          "main-ingredient",
+          "number-of-servings",
+          "occasion",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "cake mix",
+          "butter",
+          "egg"
+        ],
+        "cited": true,
+        "ranks": {
+          "dense": 1
+        }
+      },
+      {
+        "id": 47506,
+        "name": "3x chocolate cookies",
+        "minutes": 32,
+        "nutrition": {
+          "calories": 84.3,
+          "total_fat_pdv": 8.0,
+          "sugar_pdv": 28.0,
+          "sodium_pdv": 0.0,
+          "protein_pdv": 2.0,
+          "sat_fat_pdv": 17.0,
+          "carbs_pdv": 3.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "cookies-and-brownies",
+          "course",
+          "desserts",
+          "dietary",
+          "drop-cookies",
+          "low-in-something",
+          "low-sodium",
+          "number-of-servings",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "flour",
+          "baking powder",
+          "salt",
+          "unsweetened chocolate",
+          "semisweet chocolate",
+          "butter",
+          "light brown sugar",
+          "vanilla",
+          "water",
+          "egg",
+          "chocolate chips",
+          "pecans"
+        ],
+        "cited": false,
+        "ranks": {
+          "dense": 2
+        }
+      },
+      {
+        "id": 148435,
+        "name": "banana oat cookies",
+        "minutes": 25,
+        "nutrition": {
+          "calories": 127.8,
+          "total_fat_pdv": 7.0,
+          "sugar_pdv": 43.0,
+          "sodium_pdv": 7.0,
+          "protein_pdv": 5.0,
+          "sat_fat_pdv": 13.0,
+          "carbs_pdv": 6.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "bananas",
+          "beginner-cook",
+          "cookies-and-brownies",
+          "course",
+          "desserts",
+          "dietary",
+          "easy",
+          "for-large-groups",
+          "fruit",
+          "gifts",
+          "inexpensive",
+          "main-ingredient",
+          "number-of-servings",
+          "occasion",
+          "preparation",
+          "time-to-make",
+          "tropical-fruit"
+        ],
+        "ingredients": [
+          "bananas",
+          "butter",
+          "brown sugar",
+          "egg whites",
+          "rolled oats",
+          "flour",
+          "milk",
+          "baking soda",
+          "salt",
+          "vanilla",
+          "chocolate chips"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 2
+        }
+      }
+    ]
+  },
+  {
+    "n": 12,
+    "question": "A salad with quinoa and feta",
+    "parser": "rules",
+    "search_text": "A salad with quinoa and feta",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [
+        "quinoa",
+        "feta"
+      ],
+      "exclude_ingredients": [],
+      "required_tags": []
+    },
+    "constraints_applied": [
+      "contains quinoa",
+      "contains feta"
+    ],
+    "answer": "No recipe in the collection matches all of these constraints: contains quinoa; contains feta. Try relaxing one of them.",
+    "declined": true,
+    "cited_ids": [],
+    "invalid_citations": [],
+    "latency_ms": 6.7,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 6.6,
+      "answer": 0.0
+    },
+    "retrieved": []
+  },
+  {
+    "n": 13,
+    "question": "What can I cook with leftover rice?",
+    "parser": "rules",
+    "search_text": "What can I cook with leftover rice?",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [
+        "rice"
+      ],
+      "exclude_ingredients": [],
+      "required_tags": []
+    },
+    "constraints_applied": [
+      "contains rice"
+    ],
+    "answer": "You can use leftover rice to make [R221942] leftover rice pudding, [R246617] leftover chicken spinach and yellow pepper rice, or [R228691] cheddar rice souffle.",
+    "declined": false,
+    "cited_ids": [
+      221942,
+      246617,
+      228691
+    ],
+    "invalid_citations": [],
+    "latency_ms": 772.8,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 48.1,
+      "answer": 724.7
+    },
+    "retrieved": [
+      {
+        "id": 221942,
+        "name": "leftover rice pudding",
+        "minutes": 30,
+        "nutrition": {
+          "calories": 418.1,
+          "total_fat_pdv": 7.0,
+          "sugar_pdv": 95.0,
+          "sodium_pdv": 6.0,
+          "protein_pdv": 17.0,
+          "sat_fat_pdv": 14.0,
+          "carbs_pdv": 28.0
+        },
+        "tags": [
+          "3-steps-or-less",
+          "30-minutes-or-less",
+          "american",
+          "brunch",
+          "course",
+          "cuisine",
+          "desserts",
+          "dietary",
+          "dinner-party",
+          "easy",
+          "egg-free",
+          "eggs-dairy",
+          "equipment",
+          "free-of-something",
+          "healthy",
+          "holiday-event",
+          "inexpensive",
+          "kid-friendly",
+          "kosher",
+          "low-cholesterol",
+          "low-fat",
+          "low-in-something",
+          "low-sodium",
+          "main-ingredient",
+          "north-american",
+          "occasion",
+          "oven",
+          "pasta-rice-and-grains",
+          "potluck",
+          "preparation",
+          "puddings-and-mousses",
+          "rice",
+          "time-to-make",
+          "to-go"
+        ],
+        "ingredients": [
+          "rice",
+          "milk",
+          "sugar",
+          "salt",
+          "nutmeg",
+          "vanilla",
+          "raisins",
+          "cinnamon"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 2,
+          "dense": 5
+        }
+      },
+      {
+        "id": 246617,
+        "name": "leftover chicken spinach and yellow pepper rice",
+        "minutes": 30,
+        "nutrition": {
+          "calories": 485.8,
+          "total_fat_pdv": 14.0,
+          "sugar_pdv": 18.0,
+          "sodium_pdv": 17.0,
+          "protein_pdv": 40.0,
+          "sat_fat_pdv": 10.0,
+          "carbs_pdv": 23.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "chicken",
+          "chicken-breasts",
+          "comfort-food",
+          "course",
+          "cuisine",
+          "dietary",
+          "easy",
+          "european",
+          "healthy",
+          "healthy-2",
+          "kid-friendly",
+          "low-calorie",
+          "low-cholesterol",
+          "low-fat",
+          "low-in-something",
+          "low-saturated-fat",
+          "low-sodium",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "medium-grain-rice",
+          "occasion",
+          "one-dish-meal",
+          "pasta-rice-and-grains",
+          "poultry",
+          "preparation",
+          "presentation",
+          "rice",
+          "savory",
+          "served-hot",
+          "taste-mood",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "olive oil",
+          "yellow pepper",
+          "medium-grain white rice",
+          "white wine",
+          "chicken stock",
+          "cooked chicken",
+          "baby spinach leaves",
+          "salt & freshly ground black pepper"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 3,
+          "dense": 6
+        }
+      },
+      {
+        "id": 228691,
+        "name": "cheddar rice souffle leftover rice",
+        "minutes": 35,
+        "nutrition": {
+          "calories": 434.2,
+          "total_fat_pdv": 25.0,
+          "sugar_pdv": 1.0,
+          "sodium_pdv": 14.0,
+          "protein_pdv": 29.0,
+          "sat_fat_pdv": 49.0,
+          "carbs_pdv": 18.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "american",
+          "beginner-cook",
+          "cheese",
+          "course",
+          "cuisine",
+          "dietary",
+          "easy",
+          "eggs",
+          "eggs-dairy",
+          "equipment",
+          "inexpensive",
+          "kid-friendly",
+          "main-ingredient",
+          "north-american",
+          "oven",
+          "pasta-rice-and-grains",
+          "preparation",
+          "rice",
+          "side-dishes",
+          "time-to-make",
+          "white-rice"
+        ],
+        "ingredients": [
+          "butter",
+          "cheddar cheese",
+          "milk",
+          "white rice",
+          "salt",
+          "dry mustard",
+          "eggs",
+          "paprika"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 4,
+          "dense": 9
+        }
+      },
+      {
+        "id": 79709,
+        "name": "cheesy chicken rice casserole",
+        "minutes": 40,
+        "nutrition": {
+          "calories": 208.0,
+          "total_fat_pdv": 12.0,
+          "sugar_pdv": 3.0,
+          "sodium_pdv": 8.0,
+          "protein_pdv": 19.0,
+          "sat_fat_pdv": 20.0,
+          "carbs_pdv": 7.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "brunch",
+          "casseroles",
+          "course",
+          "dietary",
+          "equipment",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "occasion",
+          "oven",
+          "poultry",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "cooked rice",
+          "chicken",
+          "fresh tomato",
+          "bell peppers",
+          "green onions",
+          "fresh basil",
+          "cayenne pepper",
+          "eggs",
+          "milk",
+          "cheese",
+          "mozzarella cheese"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 12,
+          "dense": 2
+        }
+      },
+      {
+        "id": 454323,
+        "name": "chinese rice cakes",
+        "minutes": 12,
+        "nutrition": {
+          "calories": 25.0,
+          "total_fat_pdv": 1.0,
+          "sugar_pdv": 0.0,
+          "sodium_pdv": 0.0,
+          "protein_pdv": 3.0,
+          "sat_fat_pdv": 1.0,
+          "carbs_pdv": 0.0
+        },
+        "tags": [
+          "15-minutes-or-less",
+          "5-ingredients-or-less",
+          "asian",
+          "chinese",
+          "course",
+          "cuisine",
+          "easy",
+          "eggs",
+          "eggs-dairy",
+          "leftovers",
+          "lunch",
+          "main-ingredient",
+          "oamc-freezer-make-ahead",
+          "pasta-rice-and-grains",
+          "preparation",
+          "rice",
+          "side-dishes",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "fried rice",
+          "egg",
+          "flour",
+          "oil"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 10,
+          "dense": 10
+        }
+      }
+    ]
+  },
+  {
+    "n": 14,
+    "question": "A pizza with peppers",
+    "parser": "rules",
+    "search_text": "A pizza with peppers",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [
+        "peppers"
+      ],
+      "exclude_ingredients": [],
+      "required_tags": []
+    },
+    "constraints_applied": [
+      "contains peppers"
+    ],
+    "answer": "Here are some pizza options with peppers that you might enjoy:\n\n- [R240797] Cheese and Pepperoni Pizza Supreme uses plum tomatoes and pepperoncini peppers.\n- [R40201] Canadian Bacon Mushroom and Peppers Pizza includes green bell peppers.\n- [R4528] Artichoke and Red Pepper Pizza features red bell peppers among its ingredients.",
+    "declined": false,
+    "cited_ids": [
+      240797,
+      40201,
+      4528
+    ],
+    "invalid_citations": [],
+    "latency_ms": 1084.1,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 121.5,
+      "answer": 962.5
+    },
+    "retrieved": [
+      {
+        "id": 240797,
+        "name": "cheese and pepperoni pizza supreme",
+        "minutes": 27,
+        "nutrition": {
+          "calories": 353.1,
+          "total_fat_pdv": 34.0,
+          "sugar_pdv": 50.0,
+          "sodium_pdv": 143.0,
+          "protein_pdv": 42.0,
+          "sat_fat_pdv": 54.0,
+          "carbs_pdv": 6.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "course",
+          "main-dish",
+          "pizza",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "boboli pizza crusts",
+          "pizza sauce",
+          "pepperoni",
+          "button mushroom",
+          "plum tomatoes",
+          "pepperoncini peppers",
+          "mozzarella cheese"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 1,
+          "dense": 1
+        }
+      },
+      {
+        "id": 174195,
+        "name": "beef pizza casserole with pizza crust",
+        "minutes": 55,
+        "nutrition": {
+          "calories": 532.9,
+          "total_fat_pdv": 51.0,
+          "sugar_pdv": 41.0,
+          "sodium_pdv": 38.0,
+          "protein_pdv": 74.0,
+          "sat_fat_pdv": 73.0,
+          "carbs_pdv": 6.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "casseroles",
+          "course",
+          "dietary",
+          "dinner-party",
+          "easy",
+          "eggs-dairy",
+          "equipment",
+          "holiday-event",
+          "kid-friendly",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "occasion",
+          "oven",
+          "pizza",
+          "preparation",
+          "savory",
+          "stove-top",
+          "superbowl",
+          "taste-mood",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "ground beef",
+          "dried chili pepper flakes",
+          "onions",
+          "garlic",
+          "green bell pepper",
+          "dried italian seasoning",
+          "seasoning salt",
+          "pepper",
+          "parmesan cheese",
+          "flour",
+          "pasta sauce",
+          "sliced mushrooms",
+          "mozzarella cheese",
+          "prepared pizza crust",
+          "olive oil"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 4,
+          "dense": 2
+        }
+      },
+      {
+        "id": 40201,
+        "name": "canadian bacon mushroom and peppers pizza",
+        "minutes": 30,
+        "nutrition": {
+          "calories": 274.8,
+          "total_fat_pdv": 12.0,
+          "sugar_pdv": 7.0,
+          "sodium_pdv": 39.0,
+          "protein_pdv": 36.0,
+          "sat_fat_pdv": 19.0,
+          "carbs_pdv": 10.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "bacon",
+          "cheese",
+          "course",
+          "dietary",
+          "easy",
+          "eggs-dairy",
+          "equipment",
+          "healthy",
+          "main-dish",
+          "main-ingredient",
+          "meat",
+          "mushrooms",
+          "number-of-servings",
+          "oven",
+          "pizza",
+          "pork",
+          "preparation",
+          "time-to-make",
+          "vegetables"
+        ],
+        "ingredients": [
+          "italian bread",
+          "pizza sauce",
+          "part-skim mozzarella cheese",
+          "canadian bacon",
+          "fresh mushrooms",
+          "green bell peppers",
+          "dried oregano",
+          "dried basil",
+          "crushed red pepper flakes"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 11,
+          "dense": 8
+        }
+      },
+      {
+        "id": 474805,
+        "name": "3 c s and a p pizza",
+        "minutes": 30,
+        "nutrition": {
+          "calories": 114.5,
+          "total_fat_pdv": 12.0,
+          "sugar_pdv": 6.0,
+          "sodium_pdv": 12.0,
+          "protein_pdv": 15.0,
+          "sat_fat_pdv": 23.0,
+          "carbs_pdv": 0.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "beginner-cook",
+          "course",
+          "easy",
+          "main-dish",
+          "occasion",
+          "pizza",
+          "preparation",
+          "time-to-make",
+          "weeknight"
+        ],
+        "ingredients": [
+          "pizza dough",
+          "prosciutto",
+          "roasted red pepper",
+          "alfredo sauce",
+          "pizza sauce",
+          "fresh basil",
+          "mozzarella cheese",
+          "provolone cheese",
+          "gouda cheese"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 2,
+          "dense": 28
+        }
+      },
+      {
+        "id": 4528,
+        "name": "artichoke and red pepper pizza",
+        "minutes": 0,
+        "nutrition": {
+          "calories": 3576.6,
+          "total_fat_pdv": 328.0,
+          "sugar_pdv": 106.0,
+          "sodium_pdv": 376.0,
+          "protein_pdv": 645.0,
+          "sat_fat_pdv": 641.0,
+          "carbs_pdv": 32.0
+        },
+        "tags": [
+          "15-minutes-or-less",
+          "3-steps-or-less",
+          "course",
+          "cuisine",
+          "dietary",
+          "easy",
+          "equipment",
+          "european",
+          "italian",
+          "kid-friendly",
+          "main-dish",
+          "main-ingredient",
+          "number-of-servings",
+          "occasion",
+          "oven",
+          "pizza",
+          "preparation",
+          "time-to-make",
+          "vegetables"
+        ],
+        "ingredients": [
+          "boboli thin pizza shell",
+          "olive oil",
+          "red bell pepper",
+          "dried basil",
+          "dried oregano",
+          "garlic",
+          "artichoke hearts",
+          "mushrooms",
+          "part-skim mozzarella cheese",
+          "fresh cracked pepper"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 15,
+          "dense": 19
+        }
+      }
+    ]
+  },
+  {
+    "n": 15,
+    "question": "How do I change a car tyre?",
+    "parser": "rules",
+    "search_text": "How do I change a car tyre?",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [],
+      "exclude_ingredients": [],
+      "required_tags": []
+    },
+    "constraints_applied": [],
+    "answer": "I couldn't find any recipe related to that question in the collection.",
+    "declined": true,
+    "cited_ids": [],
+    "invalid_citations": [],
+    "latency_ms": 22.4,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 22.3,
+      "answer": 0.0
+    },
+    "retrieved": []
+  },
+  {
+    "n": 16,
+    "question": "Write me a poem about the sea",
+    "parser": "rules",
+    "search_text": "Write me a poem about the sea",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [],
+      "exclude_ingredients": [],
+      "required_tags": []
+    },
+    "constraints_applied": [],
+    "answer": "I couldn't find any recipe related to that question in the collection.",
+    "declined": true,
+    "cited_ids": [],
+    "invalid_citations": [],
+    "latency_ms": 19.3,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 19.2,
+      "answer": 0.0
+    },
+    "retrieved": []
+  },
+  {
+    "n": 17,
+    "question": "A vegan cheesecake that uses bacon",
+    "parser": "rules",
+    "search_text": "A vegan cheesecake that uses bacon",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [
+        "bacon"
+      ],
+      "exclude_ingredients": [],
+      "required_tags": [
+        "vegan"
+      ]
+    },
+    "constraints_applied": [
+      "contains bacon",
+      "tagged vegan"
+    ],
+    "answer": "No recipe in the collection matches all of these constraints: contains bacon; tagged vegan. Try relaxing one of them.",
+    "declined": true,
+    "cited_ids": [],
+    "invalid_citations": [],
+    "latency_ms": 19.7,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 19.6,
+      "answer": 0.0
+    },
+    "retrieved": []
+  },
+  {
+    "n": 18,
+    "question": "Gluten-free bread without eggs",
+    "parser": "rules",
+    "search_text": "Gluten-free bread without eggs",
+    "prefer_quick": false,
+    "filters": {
+      "max_minutes": null,
+      "max_calories": null,
+      "min_protein_pdv": null,
+      "include_ingredients": [],
+      "exclude_ingredients": [
+        "eggs"
+      ],
+      "required_tags": [
+        "gluten-free"
+      ]
+    },
+    "constraints_applied": [
+      "no eggs",
+      "tagged gluten-free"
+    ],
+    "answer": "The recipe for [R428576] best banana bread no egg no milk gluten free fits your request. This bread takes 60 minutes to prepare and provides 411 kcal per serving, with protein making up 3% of the Daily Value. The ingredients include butter, sugar, gluten-free flour, baking soda, salt, bananas, pure vanilla extract, and chocolate chips.",
+    "declined": false,
+    "cited_ids": [
+      428576
+    ],
+    "invalid_citations": [],
+    "latency_ms": 998.2,
+    "timings_ms": {
+      "parse": 0.1,
+      "retrieve": 55.3,
+      "answer": 942.8
+    },
+    "retrieved": [
+      {
+        "id": 428576,
+        "name": "best banana bread no egg no milk gluten free",
+        "minutes": 60,
+        "nutrition": {
+          "calories": 411.3,
+          "total_fat_pdv": 36.0,
+          "sugar_pdv": 158.0,
+          "sodium_pdv": 44.0,
+          "protein_pdv": 3.0,
+          "sat_fat_pdv": 73.0,
+          "carbs_pdv": 17.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "breads",
+          "course",
+          "dietary",
+          "egg-free",
+          "for-1-or-2",
+          "free-of-something",
+          "gluten-free",
+          "number-of-servings",
+          "preparation",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "butter",
+          "sugar",
+          "gluten-free flour",
+          "baking soda",
+          "salt",
+          "bananas",
+          "pure vanilla extract",
+          "chocolate chips"
+        ],
+        "cited": true,
+        "ranks": {
+          "bm25": 1,
+          "dense": 1
+        }
+      },
+      {
+        "id": 515019,
+        "name": "amazingly easy grain free biscuits rolls",
+        "minutes": 25,
+        "nutrition": {
+          "calories": 212.4,
+          "total_fat_pdv": 20.0,
+          "sugar_pdv": 26.0,
+          "sodium_pdv": 16.0,
+          "protein_pdv": 10.0,
+          "sat_fat_pdv": 9.0,
+          "carbs_pdv": 6.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "breads",
+          "course",
+          "dietary",
+          "free-of-something",
+          "gluten-free",
+          "preparation",
+          "rolls-biscuits",
+          "time-to-make"
+        ],
+        "ingredients": [
+          "chickpea flour",
+          "tapioca starch",
+          "baking powder",
+          "salt",
+          "sugar",
+          "almond milk",
+          "olive oil"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 5,
+          "dense": 6
+        }
+      },
+      {
+        "id": 259164,
+        "name": "all purpose gluten free flour",
+        "minutes": 5,
+        "nutrition": {
+          "calories": 512.5,
+          "total_fat_pdv": 2.0,
+          "sugar_pdv": 5.0,
+          "sodium_pdv": 0.0,
+          "protein_pdv": 17.0,
+          "sat_fat_pdv": 2.0,
+          "carbs_pdv": 37.0
+        },
+        "tags": [
+          "15-minutes-or-less",
+          "3-steps-or-less",
+          "5-ingredients-or-less",
+          "dietary",
+          "easy",
+          "free-of-something",
+          "gluten-free",
+          "lactose",
+          "preparation",
+          "time-to-make",
+          "vegan",
+          "vegetarian"
+        ],
+        "ingredients": [
+          "rice flour",
+          "potato starch",
+          "tapioca flour",
+          "xanthan gum"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 10,
+          "dense": 4
+        }
+      },
+      {
+        "id": 308397,
+        "name": "baked cereal squares gluten free",
+        "minutes": 25,
+        "nutrition": {
+          "calories": 142.3,
+          "total_fat_pdv": 10.0,
+          "sugar_pdv": 12.0,
+          "sodium_pdv": 7.0,
+          "protein_pdv": 8.0,
+          "sat_fat_pdv": 3.0,
+          "carbs_pdv": 5.0
+        },
+        "tags": [
+          "30-minutes-or-less",
+          "breads",
+          "breakfast",
+          "brown-bag",
+          "course",
+          "dietary",
+          "easy",
+          "free-of-something",
+          "gluten-free",
+          "grains",
+          "main-ingredient",
+          "occasion",
+          "pasta-rice-and-grains",
+          "preparation",
+          "time-to-make",
+          "to-go",
+          "yeast"
+        ],
+        "ingredients": [
+          "gluten-free flour",
+          "brown rice flour",
+          "flax seed meal",
+          "cornmeal",
+          "nonfat dry milk powder",
+          "dry active yeast",
+          "salt",
+          "canola oil",
+          "molasses",
+          "water"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 17,
+          "dense": 5
+        }
+      },
+      {
+        "id": 397902,
+        "name": "basic cake or muffin mix wheat and egg free",
+        "minutes": 40,
+        "nutrition": {
+          "calories": 157.0,
+          "total_fat_pdv": 17.0,
+          "sugar_pdv": 56.0,
+          "sodium_pdv": 5.0,
+          "protein_pdv": 0.0,
+          "sat_fat_pdv": 36.0,
+          "carbs_pdv": 4.0
+        },
+        "tags": [
+          "60-minutes-or-less",
+          "dietary",
+          "egg-free",
+          "free-of-something",
+          "gluten-free",
+          "inexpensive",
+          "occasion",
+          "preparation",
+          "time-to-make",
+          "vegetarian",
+          "weeknight"
+        ],
+        "ingredients": [
+          "gluten-free flour",
+          "salt",
+          "baking powder",
+          "caster sugar",
+          "butter",
+          "puree",
+          "white vinegar",
+          "milk"
+        ],
+        "cited": false,
+        "ranks": {
+          "bm25": 24,
+          "dense": 2
+        }
+      }
+    ]
+  }
+]
