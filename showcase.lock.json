@@ -1,1 +1,11 @@
-{}
+{
+  "chiron-agent/chiron-agent": {
+    "repo": "chiron-agent",
+    "folder": "",
+    "commit": "local",
+    "level": "page",
+    "demo": "",
+    "featured": true,
+    "hash": "4f442001312dd61a41f9bc084a2eb69843132d8f217bc3e9319b66a8cd8b5e81"
+  }
+}
