@@ -20,7 +20,7 @@ Three questions on the web interface: a constrained search, a dietary request an
 
 Real outputs of the full system (hybrid search, filters and a 7B model running locally on a GPU), recorded on
 17 prepared questions. Open any of them to see the filters it understood, the answer, and the facts of the recipes
-it retrieved, with the original course version's top results for comparison.
+it retrieved.
 
 <details class="replay" markdown>
 <summary><b>Vegetarian pasta with mushrooms in under 30 minutes</b> <span class="tag">answered</span> <span class="tag">1.6 s</span></summary>
@@ -42,8 +42,6 @@ it retrieved, with the original course version's top results for comparison.
 |  | Broiled polenta with mushrooms and cheese | 30 min | 186 | boiling water, dried porcini mushrooms, water, salt, cornmeal, olive oil … |
 |  | Cannellini piccata | 20 min | 463 | olive oil, onion, garlic clove, white mushroom, flour, vegetable broth … |
 
-<small>Original course approach, top 3 for the same question: Blue cheese and mushroom pasta; Baked pasta with tofu cheese vegan; Breadless portabella mushroom pizzas stove top.</small>
-
 </details>
 
 <details class="replay" markdown>
@@ -62,8 +60,6 @@ it retrieved, with the original course version's top results for comparison.
 |  | Bread and butter pudding gluten free | 50 min | 325 | bread, butter, eggs, caster sugar, milk, cream … |
 |  | Awesome gluten free chocolate chip cookies | 70 min | 915 | butter, brown sugar, sugar, vanilla instant pudding mix, eggs, vanilla extract … |
 |  | Amazing gluten free buttermilk donuts doughnuts | 40 min | 120 | eggs, buttermilk, butter, gluten-free rice flour mix, sugar, nutmeg … |
-
-<small>Original course approach, top 3 for the same question: Bubble up pizza; Bread and butter pudding gluten free; Basic cake gluten free.</small>
 
 </details>
 
@@ -84,8 +80,6 @@ it retrieved, with the original course version's top results for comparison.
 | ✓ cited | Artichoke tomato and asiago focaccia | 270 min | 250 | all-purpose flour, milk, fast rising yeast, olive oil, salt, artichoke heart … |
 |  | Baked chicken stuffed tomatoes | 30 min | 238 | tomatoes, butter, all-purpose flour, milk, chicken, celery … |
 
-<small>Original course approach, top 3 for the same question: Cheese and olive stuffed tomatoes; Chicken tetrazzini from simply recipes; Baked fish with spinach and tomatoes.</small>
-
 </details>
 
 <details class="replay" markdown>
@@ -104,8 +98,6 @@ it retrieved, with the original course version's top results for comparison.
 |  | Best ever low fat custard ice cream | 15 min | 467 | fat-free sweetened condensed milk, fat-free evaporated milk, eggs, sugar, flour, salt … |
 |  | Make it your way shortcakes | 25 min | 175 | flour, salt, baking powder, sugar, butter, egg … |
 |  | Chicken fried steak with gravy | 29 min | 439 | oil, beef cutlets, seasoned flour, eggs, milk, flour … |
-
-<small>Original course approach, top 3 for the same question: Apple puff pancake; Chai spiced honey bundt cakes; Best ever scrambled eggs.</small>
 
 </details>
 
@@ -131,8 +123,6 @@ it retrieved, with the original course version's top results for comparison.
 | ✓ cited | Cauliflower red lentil ginger soup | 35 min | 171 | onion, fresh ginger, olive oil, garlic cloves, cumin seed, red pepper flakes … |
 | ✓ cited | Attempting to duplicate progresso lentil soup | 90 min | 73 | celery, salt, garlic cloves, fresh ginger, fresh ground black pepper, lentils … |
 
-<small>Original course approach, top 3 for the same question: Chef joey s red lentil soup; Chicken lentil soup; Big batch red lentil soup.</small>
-
 </details>
 
 <details class="replay" markdown>
@@ -152,8 +142,6 @@ it retrieved, with the original course version's top results for comparison.
 |  | 20 minute garlic rosemary chicken brown rice dinner | 60 min | 202 | oil, boneless skinless chicken breast halves, garlic powder, dried rosemary leaves, reduced-sodium chicken broth, water … |
 |  | Chicken with sun dried tomatoes and artichokes 8 net carbs | 485 min | 348 | cooking spray, artichoke hearts, sun-dried tomato, cauliflower floret, garlic, dried oregano … |
 
-<small>Original course approach, top 3 for the same question: 250 calorie dinner; Chicken in mustard sauce weight watchers style; Buttermilk pecan chicken breasts.</small>
-
 </details>
 
 <details class="replay" markdown>
@@ -172,8 +160,6 @@ it retrieved, with the original course version's top results for comparison.
 |  | Chicken in red curry and coconut | 30 min | 512 | peanut oil, garlic cloves, whole chicken breasts, yellow onion, coconut milk, thai red curry paste … |
 |  | Authentic thai red curry with chicken | 30 min | 1100 | boneless skinless chicken breasts, thai red curry paste, coconut milk, oil, chicken stock, chicken bouillon cube … |
 |  | Broiled tilapia with thai coconut curry sauce | 30 min | 374 | dark sesame oil, fresh ginger, garlic cloves, red bell pepper, green onion, curry powder … |
-
-<small>Original course approach, top 3 for the same question: Awesome thai chicken coconut curry; Cauliflower coconut curry; Chicken curry kerala style.</small>
 
 </details>
 
@@ -200,8 +186,6 @@ it retrieved, with the original course version's top results for comparison.
 | ✓ cited | Breakfast wrap | 9 min | 515 | flour tortilla, mozzarella cheese, egg, bacon, frozen chopped spinach, ready-made bruschetta |
 | ✓ cited | Breakfast delight rounds | 7 min | 315 | english muffins, brown sugar, butter, cinnamon, peanut butter, gala apples |
 
-<small>Original course approach, top 3 for the same question: 10 10 10 bread; Backpacker bars; 40 second omelet.</small>
-
 </details>
 
 <details class="replay" markdown>
@@ -220,8 +204,6 @@ it retrieved, with the original course version's top results for comparison.
 |  | Chocolate cake | 45 min | 185 | sugar, flour, salt, baking soda, cocoa, miracle whip … |
 |  | Chocolate cake with coconut topping vegan | 35 min | 5389 | all-purpose flour, unsweetened cocoa powder, baking soda, salt, guar gum, raw sugar … |
 |  | Chocolate cake no eggs or butter | 70 min | 4429 | flour, sugar, salt, baking soda, cocoa, vanilla essence … |
-
-<small>Original course approach, top 3 for the same question: Chocolate cake dairy free; Chocolate cake; Chocolate cake with chocolate sauce.</small>
 
 </details>
 
@@ -247,8 +229,6 @@ it retrieved, with the original course version's top results for comparison.
 | ✓ cited | Goulashy beef stew for the slow cooker | 430 min | 566 | boneless beef cubes, celery, carrots, onions, reduced-sodium fat-free beef broth, frozen baby peas … |
 | ✓ cited | Beef burgundy for the slow cooker | 570 min | 718 | bacon, beef stew meat, salt & fresh ground pepper, onion, carrots, garlic cloves … |
 
-<small>Original course approach, top 3 for the same question: Beef stew for two slow cooker; Autumn beef stew; 4 hour beef stew.</small>
-
 </details>
 
 <details class="replay" markdown>
@@ -259,8 +239,6 @@ it retrieved, with the original course version's top results for comparison.
 **Answer:**
 
 > No recipe in the collection matches all of these constraints: contains quinoa; contains feta. Try relaxing one of them.
-
-<small>Original course approach, top 3 for the same question: Black bean and tomato quinoa salad; Asian style quinoa salad with chili orange dressing; Broccoli chickpea and cherry tomato salad.</small>
 
 </details>
 
@@ -280,8 +258,6 @@ it retrieved, with the original course version's top results for comparison.
 | ✓ cited | Cheddar rice souffle leftover rice | 35 min | 434 | butter, cheddar cheese, milk, white rice, salt, dry mustard … |
 |  | Cheesy chicken rice casserole | 40 min | 208 | cooked rice, chicken, fresh tomato, bell peppers, green onions, fresh basil … |
 |  | Chinese rice cakes | 12 min | 25 | fried rice, egg, flour, oil |
-
-<small>Original course approach, top 3 for the same question: Baked spinach risotto; Black bean and rice salad; Bacon cheeseburger rice oamc.</small>
 
 </details>
 
@@ -306,8 +282,6 @@ it retrieved, with the original course version's top results for comparison.
 |  | 3 c s and a p pizza | 30 min | 114 | pizza dough, prosciutto, roasted red pepper, alfredo sauce, pizza sauce, fresh basil … |
 | ✓ cited | Artichoke and red pepper pizza | 0 min | 3577 | boboli thin pizza shell, olive oil, red bell pepper, dried basil, dried oregano, garlic … |
 
-<small>Original course approach, top 3 for the same question: Chicken and roasted red bell pepper ciabatta pizzas; Basquadillas; Chef joey s vegan nori pizzas.</small>
-
 </details>
 
 <details class="replay" markdown>
@@ -317,8 +291,6 @@ it retrieved, with the original course version's top results for comparison.
 
 > I couldn't find any recipe related to that question in the collection.
 
-<small>Original course approach, top 3 for the same question: Caramelized carrots; Absolutely the best new york cheesecake gluten free; Basic soft white sandwich loaf bread.</small>
-
 </details>
 
 <details class="replay" markdown>
@@ -327,8 +299,6 @@ it retrieved, with the original course version's top results for comparison.
 **Answer:**
 
 > I couldn't find any recipe related to that question in the collection.
-
-<small>Original course approach, top 3 for the same question: Ahoy there moules marinires french sailor s mussels; Asian black pepper crab; A day at the beach.</small>
 
 </details>
 
@@ -340,8 +310,6 @@ it retrieved, with the original course version's top results for comparison.
 **Answer:**
 
 > No recipe in the collection matches all of these constraints: contains bacon; tagged vegan. Try relaxing one of them.
-
-<small>Original course approach, top 3 for the same question: Anita s polish pierogies; Bacon and two onion cheesecake; Apple cinnamon cornmeal pancakes.</small>
 
 </details>
 
@@ -362,15 +330,13 @@ it retrieved, with the original course version's top results for comparison.
 |  | Baked cereal squares gluten free | 25 min | 142 | gluten-free flour, brown rice flour, flax seed meal, cornmeal, nonfat dry milk powder, dry active yeast … |
 |  | Basic cake or muffin mix wheat and egg free | 40 min | 157 | gluten-free flour, salt, baking powder, caster sugar, butter, puree … |
 
-<small>Original course approach, top 3 for the same question: Basic cake or muffin mix wheat and egg free; Best banana bread no egg no milk gluten free; Basic bread wheat free.</small>
-
 </details>
 
 <small>Recipe data: Food.com, collected by Majumder et al., EMNLP 2019. Only recipe facts are shown here.</small>
 
 ## How it works
 
-- **One record per recipe** with structured fields (time, nutrition, tags, ingredients) instead of 1,000-character chunks.
+- **One record per recipe** with structured fields (time, nutrition, tags, ingredients).
 - **Constraints parsed from the question** ("under 30 minutes", "gluten-free", "uses flour and milk") become hard filters.
 - **Hybrid search**: BM25 plus dense embeddings (bge-small), fused, then an off-topic guard that declines questions no recipe can answer.
 - **Grounded answers**: a 7B instruction model writes the answer and must cite the recipes it used; citations are checked.
@@ -378,12 +344,11 @@ it retrieved, with the original course version's top results for comparison.
 
 ## Results
 
-50,000 recipes, top 5 results, blind set of 20 questions run once:
+On 50,000 recipes, top 5 results, a blind set of 20 questions written after all tuning and run once:
 
-| System | Results meeting every constraint | Known-item recall | Off-topic declined |
-| --- | --- | --- | --- |
-| Original course notebook approach | 0.40 | 0.90 | 0% |
-| **Hybrid + filters + off-topic guard** | **0.85** | 0.80 | **100%** |
+- **0.85** of the results meet every constraint in the question
+- **0.80** known-item recall
+- **100%** of off-topic questions declined, with a median retrieval time of about 30 ms
 
 With the language model on top: every citation points to a retrieved recipe, every cited recipe meets the
 constraints, and every unanswerable question is declined, at about 1.1 s per answer.
@@ -391,6 +356,5 @@ constraints, and every unanswerable question is declined, at about 1.1 s per ans
 ## Origin
 
 It started as the project for the Natural Language Processing course of my M.Sc.
-at the University of Padova. The course version is kept as it was; this one is
-where it keeps growing.
+at the University of Padova.
 
