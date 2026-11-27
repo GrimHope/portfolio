@@ -37,9 +37,21 @@ Built as a technical assignment: a complete, tested and containerised service, n
 ## How it works
 
 ```
-Client ──► FastAPI ──► AnalysisService ──► ReAct agent ──► LLM (any OpenAI-compatible endpoint)
-                              │                   └──────► Sandbox (separate process)
-                              └──► SQLite: sessions, messages, traces, plots
+Client
+  │  question + CSV, over HTTP
+  ▼
+FastAPI          validation, request ids, errors
+  │
+  ▼
+AnalysisService ────► SQLite
+  │                   sessions, messages,
+  │                   traces, plots
+  ▼
+ReAct agent ◄──────► LLM
+  │                   any OpenAI-compatible
+  │                   endpoint
+  ▼
+Sandbox          separate, locked-down process
 ```
 
 1. The service validates the request, takes a concurrency slot and opens a turn.
