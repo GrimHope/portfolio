@@ -20,6 +20,13 @@ Il codice della maggior parte dei progetti è privato; ogni pagina spiega cosa f
 </div>
 
 <div class="project-card" markdown>
+<h3><a href="projects/Kosmos2/kosmos2/">Kosmos 2.0: safe live editing of shared databases</a></h3>
+<p class="project-meta">Personal projects · 2026-11</p>
+<p>Several people browse and edit shared MariaDB, PostgreSQL or MongoDB databases from the browser at once. Changes appear live, and concurrent saves become a field-by-field merge instead of overwriting each other.</p>
+<span class="tag">Python</span> <span class="tag">FastAPI</span> <span class="tag">SQLAlchemy</span> <span class="tag">PostgreSQL</span> <span class="tag">MariaDB</span> <span class="tag">MongoDB</span> <span class="tag">Docker</span> <span class="tag">Qwen2.5</span> <span class="tag">concurrency</span> <span class="tag">optimistic locking</span> <span class="tag">Server-Sent Events</span> <span class="tag">text-to-SQL</span>
+</div>
+
+<div class="project-card" markdown>
 <h3><a href="projects/chiron-agent/chiron-agent/">Chiron: a data-analysis agent as a service</a></h3>
 <p class="project-meta">Technical assignments · 2026-10</p>
 <p>Ask a question about a CSV file; an LLM agent writes and runs Python in a sandbox and returns the answer, a chart and its full reasoning trace over an HTTP API.</p>

@@ -1,4 +1,13 @@
 {
+  "Kosmos2/kosmos2": {
+    "repo": "Kosmos2",
+    "folder": "",
+    "commit": "local",
+    "level": "page",
+    "demo": "",
+    "featured": true,
+    "hash": "a5fb09931410f50995ce7a167b6270adb55f1d1da111592824dc8b1b8b1e5588"
+  },
   "MasterChefsRAG/masterchefsrag": {
     "repo": "MasterChefsRAG",
     "folder": "",
